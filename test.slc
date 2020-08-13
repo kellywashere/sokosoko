@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SokobanLevels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="SokobanLev.xsd">
+  <Title>Thinking Rabbit Arranged</Title>
+  <Description>
+The levels in this set were collected, documented and published by
+Sokoplaza members. Collection supervisor: Werner Ettinger (merging of
+initial collections, renaming all level names, making new alphabetical
+level order, removing duplicates).
+  </Description>
+  <LevelCollection Copyright="Thinking Rabbit" MaxWidth="32" MaxHeight="29">
+    <Level Id="Originals / Level 1 R--10" Width="11" Height="11" Copyright="Jordi Doménech">
+      <L>    #####</L>
+      <L>    #   #</L>
+      <L>    #$  #</L>
+      <L>  ###  $###</L>
+      <L>  # $$  $ #</L>
+      <L>### # ### #</L>
+      <L>#   # #@# #</L>
+      <L># $     $ #</L>
+      <L>#### *.##.#</L>
+      <L>   ##.....#</L>
+      <L>    #######</L>
+    </Level>
+  </LevelCollection>
+</SokobanLevels>
