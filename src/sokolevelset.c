@@ -29,6 +29,7 @@ void levelset_add_level(Sokolevelset* set, Sokolevel* lvl) {
 	set->last = n;
 
 	if (n->prev) {
+		n->prev->next = n;
 		n->nrInSet = n->prev->nrInSet + 1;
 	}
 	else {
@@ -68,4 +69,11 @@ Sokolevel* levelset_next(Sokolevelset* set) {
 	return NULL;
 }
 
+Sokolevel* levelset_first(Sokolevelset* set) {
+	set->current = set->first;
+	return set->current->level;
+}
 
+unsigned int levelset_size(Sokolevelset* set) {
+	return set->last->nrInSet;
+}

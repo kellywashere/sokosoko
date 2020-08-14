@@ -30,6 +30,7 @@ typedef struct Sokolevel {
 	int      nrBoxesOnTargets; // nr of boxes that are on a target
 	int      workerCol;        // X-pos of worker
 	int      workerRow;        // Y-pos of worker
+	int*     helper;           // helper grid (e.g. for floodfill, path finding, etc.)
 } Sokolevel;
 
 Sokolevel* create_level(int w, int h);

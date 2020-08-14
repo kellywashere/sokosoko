@@ -5,8 +5,8 @@ CC       = gcc
 # compiling flags here
 
 # Valgrind//debug:
-# CFLAGS   := -Wall -I. -g -DDEBUG
-CFLAGS   := -Wall -I.
+CFLAGS   := -Wall -I. -g -DDEBUG
+# CFLAGS   := -Wall -I.
 
 LINKER   = gcc
 # linking flags here

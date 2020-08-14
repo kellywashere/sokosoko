@@ -10,6 +10,7 @@ Sokolevel* create_level(int w, int h) {
 		lvl->width = w;
 		lvl->height = h;
 		lvl->grid = malloc(w * h * sizeof(gridVal));
+		lvl->helper = malloc(w * h * sizeof(int));
 		for (int r = 0; r < h; ++r) {
 			for (int c = 0; c < w; ++c) {
 				lvl->grid[lvl->width * r + c] = OUTSIDE;
@@ -46,6 +47,7 @@ bool check_level(Sokolevel* lvl) {
 	int nrBoxesOnTargets = 0;
 	int nrWorkers = 0;
 
+	// first, some basic tallying
 	for (int r = 0; r < lvl->height; ++r) {
 		for (int c = 0; c < lvl->width; ++c) {
 			gridVal v = lvl->grid[lvl->width * r + c];

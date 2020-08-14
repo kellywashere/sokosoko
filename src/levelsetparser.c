@@ -162,7 +162,7 @@ static void sax_endElement(void* user_data, const xmlChar* name) {
 			data->state = COLLECTION;
 			if (check_level(data->level)) {
 				levelset_add_level(data->levelset, data->level);
-				print_level(data->level);
+				printf("adding level\n");
 			}
 			break;
 		case LEVEL_ROW:
@@ -228,11 +228,8 @@ Sokolevelset* parse_levelset_file(const char* fname) {
 		destroy_levelset(destroy_fsm_data(fsm_data));
 		return NULL;
 	}
-/*
-	printf("Title: %s\n", fsm_data->levelset->title);
-	printf("Author: %s\n", fsm_data->levelset->author);
-	printf("Description: %s\n", fsm_data->levelset->description);
-*/
+
+	destroy_fsm_data(fsm_data);
 	return fsm_data->levelset;
 }
 
