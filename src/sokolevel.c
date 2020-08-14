@@ -10,7 +10,6 @@ Sokolevel* create_level(int w, int h) {
 		lvl->width = w;
 		lvl->height = h;
 		lvl->grid = malloc(w * h * sizeof(gridVal));
-		lvl->helper = malloc(w * h * sizeof(int));
 		for (int r = 0; r < h; ++r) {
 			for (int c = 0; c < w; ++c) {
 				lvl->grid[lvl->width * r + c] = OUTSIDE;
@@ -29,14 +28,75 @@ void destroy_level(Sokolevel* lvl) {
 	free(lvl);
 }
 
-void set_grid(Sokolevel* lvl, int r, int c, gridVal v) {
+void level_set_grid(Sokolevel* lvl, int r, int c, gridVal v) {
 	if (r >= 0 && r < lvl->height && c >= 0 && c < lvl->width) {
 		lvl->grid[lvl->width * r + c] = v;
 	}
 }
 
-gridVal get_grid(Sokolevel* lvl, int r, int c) {
-	return lvl->grid[lvl->width * r + c];
+gridVal level_get_grid(Sokolevel* lvl, int r, int c) {
+	if (r >= 0 && r < lvl->height && c >= 0 && c < lvl->width) {
+		return lvl->grid[lvl->width * r + c];
+	}
+	else {
+		return INVALID;
+	}
+}
+
+static bool inout_helperfn(Sokolevel* lvl, Stack* s, int r, int c) {
+	// helper fn for in/outside floodfill
+	if (r >= 0 && r < lvl->height && c >= 0 && c < lvl->width) {
+		int idx = r * lvl->width + c;
+		switch (lvl->grid[idx]) {
+			case OUTSIDE:
+				return true;
+			case WALL:
+				return true;
+			case INSIDE:
+				lvl->grid[idx] = OUTSIDE;
+				push_on_int_stack(s, r);
+				push_on_int_stack(s, c);
+				return true;
+			default:
+				printf("Unexpected grid content: %d\n", lvl->grid[idx]);
+				return false; // error
+		}
+	}
+	return true;
+}
+
+static bool check_inside_outside(Sokolevel* lvl) {
+	int r, c, idx;
+	bool all_okay = true;
+
+	// prepping for floodfill: set all floors to inside
+	for (idx = 0; idx < lvl->width * lvl->height; ++idx) {
+		if (lvl->grid[idx] == OUTSIDE) {
+			lvl->grid[idx] = INSIDE;
+		}
+	}
+
+	Stack* s = create_int_stack(2 * lvl->width * lvl->height);
+	// go around border for floodfilling
+	for (c = 0; c < lvl->width && all_okay; ++c) {
+		all_okay = all_okay && inout_helperfn(lvl, s, 0, c);
+		all_okay = all_okay && inout_helperfn(lvl, s, lvl->height - 1, c);
+	}
+	for (r = 1; r < lvl->height - 1 && all_okay; ++r) { // skip corners
+		all_okay = all_okay && inout_helperfn(lvl, s, r, 0);
+		all_okay = all_okay && inout_helperfn(lvl, s, r, lvl->width - 1);
+	}
+	// floodfill
+	while (!is_stack_empty(s) && all_okay) {
+		c = pop_from_int_stack(s);
+		r = pop_from_int_stack(s);
+		all_okay = all_okay && inout_helperfn(lvl, s, r - 1, c);
+		all_okay = all_okay && inout_helperfn(lvl, s, r + 1, c);
+		all_okay = all_okay && inout_helperfn(lvl, s, r, c - 1);
+		all_okay = all_okay && inout_helperfn(lvl, s, r, c + 1);
+	}
+	destroy_stack(s);
+	return all_okay;
 }
 
 bool check_level(Sokolevel* lvl) {
@@ -78,7 +138,7 @@ bool check_level(Sokolevel* lvl) {
 	lvl->nrBoxes = nrBoxes;
 	lvl->nrBoxesOnTargets = nrBoxesOnTargets;
 
-	return true;
+	return check_inside_outside(lvl);
 }
 
 void print_level(Sokolevel* lvl) {
@@ -93,10 +153,17 @@ void print_level(Sokolevel* lvl) {
 				break;
 			}
 		}
+#ifdef DEBUG
+		last_wall_col = lvl->width - 1; // print same length rows with trailing 'OUTSIDE'
+#endif
 		for (int c = 0; c <= last_wall_col; ++c) {
 			gridVal v = lvl->grid[row_idx + c];
 			switch (v) {
 				case OUTSIDE:
+#ifdef DEBUG
+					ch = 'X';
+					break;
+#endif
 				case INSIDE:
 					ch = ' ';
 					break;
@@ -117,6 +184,9 @@ void print_level(Sokolevel* lvl) {
 					break;
 				case WORKER_ON_TARGET:
 					ch = '+';
+					break;
+				default:
+					ch = '?';
 					break;
 			}
 			putchar(ch);

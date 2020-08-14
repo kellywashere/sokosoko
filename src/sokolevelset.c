@@ -71,9 +71,17 @@ Sokolevel* levelset_next(Sokolevelset* set) {
 
 Sokolevel* levelset_first(Sokolevelset* set) {
 	set->current = set->first;
+	if (!set->current) {
+		return NULL;
+	}
 	return set->current->level;
 }
 
 unsigned int levelset_size(Sokolevelset* set) {
-	return set->last->nrInSet;
+	if (set->last) {
+		return set->last->nrInSet;
+	}
+	else {
+		return 0;
+	}
 }

@@ -4,12 +4,12 @@
 #include "util.h"
 
 int main(int argc, char* argv[]) {
-//	parse_levelset_file("sokolevels/Thinking_Rabbit_Arranged.slc");
+	// parse_levelset_file("sokolevels/Thinking_Rabbit_Arranged.slc");
 	char* fname = "test.slc";
 	if (argc > 1) {
 		fname = argv[1];
 	}
-	
+
 	Sokolevelset* levelset = parse_levelset_file(fname);
 
 	printf("Title: %s\n", levelset->title);
@@ -25,5 +25,5 @@ int main(int argc, char* argv[]) {
 
 	destroy_levelset(levelset);
 
-    return 0;
+	return 0;
 }
