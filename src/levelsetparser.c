@@ -139,7 +139,6 @@ void sax_characters(void* user_data, const xmlChar* ch, int len) {
 
 static void sax_endElement(void* user_data, const xmlChar* name) {
 	Sax_FSM_data* data = user_data;
-	Sax_state current_state = data->state;
 
 	int l;
 	switch (data->state) {
@@ -192,7 +191,8 @@ static void sax_endElement(void* user_data, const xmlChar* name) {
 						v = OUTSIDE;
 						break;
 				}
-				level_set_grid(data->level, data->level_row, c, v);
+				GridPos pos = { data->level_row, c };
+				level_set_grid(data->level, pos, v);
 			}
 			++data->level_row;
 			break;
@@ -202,8 +202,6 @@ static void sax_endElement(void* user_data, const xmlChar* name) {
 }
 
 static xmlEntityPtr sax_getEntity(void *user_data, const xmlChar *name) {
-	Sax_FSM_data* data = user_data;
-	printf("get entity: %s\n", name);
 	return xmlGetPredefinedEntity(name);
 }
 
@@ -221,7 +219,6 @@ Sokolevelset* parse_levelset_file(const char* fname) {
 	handler.characters = sax_characters;
 
 	int errcode = xmlSAXUserParseFile(&handler, fsm_data, fname);
-	Sokolevelset* levelset = fsm_data->levelset;
 
 	if (errcode) {
 		fprintf(stderr, "Error parsing %s (errcode %d)\n", fname, errcode);
@@ -229,7 +226,6 @@ Sokolevelset* parse_levelset_file(const char* fname) {
 		return NULL;
 	}
 
-	destroy_fsm_data(fsm_data);
-	return fsm_data->levelset;
+	return destroy_fsm_data(fsm_data);
 }
 

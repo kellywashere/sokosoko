@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <ctype.h>
 
 Sokolevel* create_level(int w, int h) {
 	Sokolevel* lvl = malloc(sizeof(Sokolevel));
@@ -17,6 +18,7 @@ Sokolevel* create_level(int w, int h) {
 		}
 		lvl->title[0] = '\0';
 		lvl->author[0] = '\0';
+		lvl->movelist = NULL;
 	}
 	return lvl;
 }
@@ -24,27 +26,186 @@ Sokolevel* create_level(int w, int h) {
 void destroy_level(Sokolevel* lvl) {
 	if (lvl) {
 		free(lvl->grid);
+		free(lvl->movelist);
 	}
 	free(lvl);
 }
 
-void level_set_grid(Sokolevel* lvl, int r, int c, gridVal v) {
-	if (r >= 0 && r < lvl->height && c >= 0 && c < lvl->width) {
-		lvl->grid[lvl->width * r + c] = v;
+void level_set_grid(Sokolevel* lvl, GridPos pos, gridVal v) {
+	if (pos.row >= 0 && pos.row < lvl->height && pos.col >= 0 && pos.col < lvl->width) {
+		lvl->grid[lvl->width * pos.row + pos.col] = v;
 	}
 }
 
-gridVal level_get_grid(Sokolevel* lvl, int r, int c) {
-	if (r >= 0 && r < lvl->height && c >= 0 && c < lvl->width) {
-		return lvl->grid[lvl->width * r + c];
+gridVal level_get_grid(Sokolevel* lvl, GridPos pos) {
+	if (pos.row >= 0 && pos.row < lvl->height && pos.col >= 0 && pos.col < lvl->width) {
+		return lvl->grid[lvl->width * pos.row + pos.col];
 	}
 	else {
 		return INVALID;
 	}
 }
 
+static char move_to_char(int dr, int dc, bool is_push) { // valid move assumed
+	char mc;
+	if (dr < 0) {
+		mc = 'u';
+	}
+	else if (dr > 0) {
+		mc = 'd';
+	}
+	else if (dc < 0) {
+		mc = 'l';
+	}
+	else {
+		mc = 'r';
+	}
+	if (is_push) {
+		mc = toupper(mc);
+	}
+	return mc;
+}
+
+static void char_to_move(char mc, int* dr, int* dc, bool* is_push) {
+	*is_push = isupper(mc);
+	mc = tolower(mc);
+	*dr = 0;
+	*dc = 0;
+	switch (mc) {
+		case 'u':
+			*dr = -1;
+			break;
+		case 'd':
+			*dr = 1;
+			break;
+		case 'l':
+			*dc = -1;
+			break;
+		case 'r':
+			*dc = 1;
+			break;
+		default:
+			break;
+	}
+}
+
+static void level_add_move(Sokolevel* lvl, char mc) {
+	// TODO: error checking in mem alloc
+	if (mc) {
+		if (!lvl->movelist) {
+			lvl->movelist = malloc(sizeof(MoveList));
+			lvl->movelist->capacity = 256;
+			lvl->movelist->moves = malloc(sizeof(char) * lvl->movelist->capacity);
+			lvl->movelist->nrMoves = 0;
+		}
+		else if (lvl->movelist->nrMoves + 1 >= lvl->movelist->capacity) {
+			lvl->movelist->capacity += 256;
+			lvl->movelist->moves = realloc(lvl->movelist,
+					sizeof(char) * lvl->movelist->capacity);
+		}
+		lvl->movelist->moves[lvl->movelist->nrMoves++] = mc;
+	}
+}
+
+static char level_move(Sokolevel* lvl, int dr, int dc) {
+	bool is_push = false;
+	char mc = '\0';
+	int r = lvl->workerPos.row + dr; // worker target
+	int c = lvl->workerPos.col + dc; // worker target
+	if (r < 0 || r >= lvl->height || c < 0 || c >= lvl->width) { // can't actually happen
+		return '\0';
+	}
+	gridVal g = lvl->grid[r * lvl->width + c];
+	if (g == WALL) {
+		return '\0';
+	}
+	if ((g & BOX) == BOX) { // attempting push move
+		int r2 = r + dr; // box target
+		int c2 = c + dc; // box target
+		if (r2 < 0 || r2 >= lvl->height || c2 < 0 || c2 >= lvl->width) { // can't actually happen
+			return '\0';
+		}
+		gridVal g2 = lvl->grid[r2 * lvl->width + c2];
+		if (g2 == WALL || (g2 & BOX) == BOX) {
+			return '\0';
+		}
+		// execute box move
+		lvl->grid[r * lvl->width + c] &= ~BOX;
+		lvl->grid[r2 * lvl->width + c2] |= BOX;
+		if ((g & TARGET) == TARGET) {
+			--lvl->nrBoxesOnTargets;
+		}
+		if ((g2 & TARGET) == TARGET) {
+			++lvl->nrBoxesOnTargets;
+		}
+		is_push = true;
+	}
+	// execute worker move
+	lvl->grid[lvl->width * lvl->workerPos.row + lvl->workerPos.col] &= ~WORKER;
+	lvl->grid[r * lvl->width + c] |= WORKER;
+	lvl->workerPos.row = r;
+	lvl->workerPos.col = c;
+	mc = move_to_char(dr, dc, is_push);
+	level_add_move(lvl, mc);
+	return mc;
+}
+
+// next fns return a char (udlf for normal moves, UDLR for push moves, \0 for no move
+char level_move_left(Sokolevel* lvl) {
+	return level_move(lvl, 0, -1);
+}
+
+char level_move_right(Sokolevel* lvl) {
+	return level_move(lvl, 0, 1);
+}
+
+char level_move_up(Sokolevel* lvl) {
+	return level_move(lvl, -1, 0);
+}
+
+char level_move_down(Sokolevel* lvl) {
+	return level_move(lvl, 1, 0);
+}
+
+char level_undo_move(Sokolevel* lvl) {
+	if (!lvl->movelist || lvl->movelist->nrMoves == 0) {
+		return '\0';
+	}
+	char mc = lvl->movelist->moves[--lvl->movelist->nrMoves];
+	int dr, dc;
+	bool is_push;
+	char_to_move(mc, &dr, &dc, &is_push);
+	// undo worker move
+	int r = lvl->workerPos.row;
+	int c = lvl->workerPos.col;
+	lvl->grid[lvl->width * r + c] &= ~WORKER;
+	lvl->workerPos.row = (r - dr);
+	lvl->workerPos.col = (c - dc);
+	lvl->grid[lvl->width * lvl->workerPos.row + lvl->workerPos.col] |= WORKER;
+	if (is_push) { // undo box move
+		lvl->grid[lvl->width * (r + dr) + (c + dc)] &= ~BOX;
+		lvl->grid[lvl->width * r + c] |= BOX;
+		if ((lvl->grid[lvl->width * (r + dr) + (c + dc)] & TARGET) == TARGET) {
+			--lvl->nrBoxesOnTargets;
+		}
+		if ((lvl->grid[lvl->width * r + c ] & TARGET) == TARGET) {
+			--lvl->nrBoxesOnTargets;
+		}
+	}
+	return mc;
+}
+
+char level_undo_last_push(Sokolevel* lvl) { // undoes everything up to and including last push
+	char mc;
+	do {
+		mc = level_undo_move(lvl);
+	} while (mc != '\0' && islower(mc));
+	return mc;
+}
+
 static bool inout_helperfn(Sokolevel* lvl, Stack* s, int r, int c) {
 	// helper fn for in/outside floodfill
+	GridPos pos;
 	if (r >= 0 && r < lvl->height && c >= 0 && c < lvl->width) {
 		int idx = r * lvl->width + c;
 		switch (lvl->grid[idx]) {
@@ -54,8 +215,9 @@ static bool inout_helperfn(Sokolevel* lvl, Stack* s, int r, int c) {
 				return true;
 			case INSIDE:
 				lvl->grid[idx] = OUTSIDE;
-				push_on_int_stack(s, r);
-				push_on_int_stack(s, c);
+				pos.row = r;
+				pos.col = c;
+				push_on_stack(s, &pos);
 				return true;
 			default:
 				printf("Unexpected grid content: %d\n", lvl->grid[idx]);
@@ -66,34 +228,33 @@ static bool inout_helperfn(Sokolevel* lvl, Stack* s, int r, int c) {
 }
 
 static bool check_inside_outside(Sokolevel* lvl) {
-	int r, c, idx;
+	GridPos pos;
 	bool all_okay = true;
 
 	// prepping for floodfill: set all floors to inside
-	for (idx = 0; idx < lvl->width * lvl->height; ++idx) {
+	for (int idx = 0; idx < lvl->width * lvl->height; ++idx) {
 		if (lvl->grid[idx] == OUTSIDE) {
 			lvl->grid[idx] = INSIDE;
 		}
 	}
 
-	Stack* s = create_int_stack(2 * lvl->width * lvl->height);
+	Stack* s = create_stack(sizeof(GridPos), lvl->width * lvl->height);
 	// go around border for floodfilling
-	for (c = 0; c < lvl->width && all_okay; ++c) {
+	for (int c = 0; c < lvl->width && all_okay; ++c) {
 		all_okay = all_okay && inout_helperfn(lvl, s, 0, c);
 		all_okay = all_okay && inout_helperfn(lvl, s, lvl->height - 1, c);
 	}
-	for (r = 1; r < lvl->height - 1 && all_okay; ++r) { // skip corners
+	for (int r = 1; r < lvl->height - 1 && all_okay; ++r) { // skip corners
 		all_okay = all_okay && inout_helperfn(lvl, s, r, 0);
 		all_okay = all_okay && inout_helperfn(lvl, s, r, lvl->width - 1);
 	}
 	// floodfill
 	while (!is_stack_empty(s) && all_okay) {
-		c = pop_from_int_stack(s);
-		r = pop_from_int_stack(s);
-		all_okay = all_okay && inout_helperfn(lvl, s, r - 1, c);
-		all_okay = all_okay && inout_helperfn(lvl, s, r + 1, c);
-		all_okay = all_okay && inout_helperfn(lvl, s, r, c - 1);
-		all_okay = all_okay && inout_helperfn(lvl, s, r, c + 1);
+		pop_from_stack(s, &pos);
+		all_okay = all_okay && inout_helperfn(lvl, s, pos.row - 1, pos.col    );
+		all_okay = all_okay && inout_helperfn(lvl, s, pos.row + 1, pos.col    );
+		all_okay = all_okay && inout_helperfn(lvl, s, pos.row    , pos.col - 1);
+		all_okay = all_okay && inout_helperfn(lvl, s, pos.row    , pos.col + 1);
 	}
 	destroy_stack(s);
 	return all_okay;
@@ -113,8 +274,8 @@ bool check_level(Sokolevel* lvl) {
 			gridVal v = lvl->grid[lvl->width * r + c];
 			if (v & WORKER) {
 				++nrWorkers;
-				lvl->workerRow = r;
-				lvl->workerCol = c;
+				lvl->workerPos.row = r;
+				lvl->workerPos.col = c;
 			}
 			if (v & BOX) {
 				++nrBoxes;
