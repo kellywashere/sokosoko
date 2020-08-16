@@ -122,7 +122,7 @@ static void render_level(RenderData* renderData, Sokolevel* lvl, Texture* skin) 
 
 int main(int argc, char* argv[]) {
 	// parse_levelset_file("sokolevels/Thinking_Rabbit_Arranged.slc");
-	char* fname = "test.slc";
+	char* fname = "assets/levels/Original.slc";
 	if (argc > 1) {
 		fname = argv[1];
 	}

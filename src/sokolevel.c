@@ -100,7 +100,7 @@ static void level_add_move(Sokolevel* lvl, char mc) {
 		}
 		else if (lvl->movelist->nrMoves + 1 >= lvl->movelist->capacity) {
 			lvl->movelist->capacity += 256;
-			lvl->movelist->moves = realloc(lvl->movelist,
+			lvl->movelist->moves = realloc(lvl->movelist->moves,
 					sizeof(char) * lvl->movelist->capacity);
 		}
 		lvl->movelist->moves[lvl->movelist->nrMoves++] = mc;
