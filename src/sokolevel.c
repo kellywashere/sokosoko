@@ -203,6 +203,13 @@ char level_undo_last_push(Sokolevel* lvl) { // undoes everything up to and inclu
 	return mc;
 }
 
+char level_last_move(Sokolevel* lvl) {
+	if (!lvl->movelist || lvl->movelist->nrMoves == 0) {
+		return '\0';
+	}
+	return lvl->movelist->moves[lvl->movelist->nrMoves - 1];
+}
+
 static bool inout_helperfn(Sokolevel* lvl, Stack* s, int r, int c) {
 	// helper fn for in/outside floodfill
 	GridPos pos;

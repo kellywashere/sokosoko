@@ -6,7 +6,7 @@ CC       = gcc
 
 # Valgrind//debug:
 CFLAGS   := -Wall -I. -g -DDEBUG
-# CFLAGS   := -Wall -I.
+## CFLAGS   := -Wall -I.
 
 LINKER   = gcc
 # linking flags here
@@ -14,10 +14,10 @@ LFLAGS   := -I.
 
 ifeq ($(OS),Windows_NT)
 	CFLAGS += -Dmain=SDL_main -I/mingw64/include/SDL2
-	LFLAGS += -L/mingw64/lib -lmingw32 -lSDL2main -lSDL2
+	LFLAGS += -L/mingw64/lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
 else
 	CFLAGS += -I/usr/include/SDL2 -I/usr/include/libxml2 -D_REENTRANT
-	LFLAGS += -L/usr/lib -pthread -lSDL2 -lxml2
+	LFLAGS += -L/usr/lib -pthread -lSDL2 -lSDL2_image -lxml2
 endif
 
 # change these to proper directories where each file should be
