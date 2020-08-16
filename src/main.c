@@ -20,7 +20,7 @@ static int init_window(RenderData* renderData) {
 
 	renderData->window = SDL_CreateWindow("SDL Test",
 			SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
-			640, 480,
+			1024, 768,
 			SDL_WINDOW_SHOWN);
 	if (renderData->window == NULL) {
 		fprintf(stderr, "Window could not be created! SDL_Error: %s\n", SDL_GetError() );
@@ -49,6 +49,57 @@ static void destroy_renderer(RenderData* renderData) {
 	SDL_DestroyRenderer(renderData->renderer);
 }
 
+int wallLUT[] = {5, 4, 5, 4, 1, 0, 1, 2}; // LUT for wall rendering
+static void render_level_wall(RenderData* renderData, Sokolevel* lvl, GridPos pos,
+		SDL_Rect dstRect, Texture* skin) {
+	/* We have four corners in each wall section: TL, TR, BL, BR
+	 * For each corner we look at 3 relevant neighboring cells: Horizontal, Diagonal, Vertical
+	 * we encode like: H bit 2, D bit 1, V bit 0
+	 * We use LUT to convert to single number, which relates to source cell to be used for rendering
+	 */
+	int skin_size = skin->width/4; // w,h of skin cells
+
+	SDL_Rect srcRect = {0, 0, skin_size/2, skin_size/2}; // corner: w,h are size/2
+	dstRect.w /= 2;  // corner: w,h are size/2
+	dstRect.h /= 2;  // corner: w,h are size/2
+	// Top-left
+	int lutidx =
+		(level_get_grid(lvl, pos.row    , pos.col - 1) == WALL ? 4 : 0) +
+		(level_get_grid(lvl, pos.row - 1, pos.col - 1) == WALL ? 2 : 0) +
+		(level_get_grid(lvl, pos.row - 1, pos.col    ) == WALL ? 1 : 0);
+	srcRect.x = (wallLUT[lutidx] % 4) * skin_size;
+	srcRect.y = ((wallLUT[lutidx] / 4) + 2) * skin_size;
+	SDL_RenderCopy(renderData->renderer, skin->texture, &srcRect, &dstRect);
+	// Top-right
+	lutidx =
+		(level_get_grid(lvl, pos.row    , pos.col + 1) == WALL ? 4 : 0) +
+		(level_get_grid(lvl, pos.row - 1, pos.col + 1) == WALL ? 2 : 0) +
+		(level_get_grid(lvl, pos.row - 1, pos.col    ) == WALL ? 1 : 0);
+	srcRect.x = (wallLUT[lutidx] % 4) * skin_size + skin_size/2;
+	srcRect.y = ((wallLUT[lutidx] / 4) + 2) * skin_size;
+	dstRect.x += dstRect.w;
+	SDL_RenderCopy(renderData->renderer, skin->texture, &srcRect, &dstRect);
+	// Bottom-right
+	lutidx =
+		(level_get_grid(lvl, pos.row    , pos.col + 1) == WALL ? 4 : 0) +
+		(level_get_grid(lvl, pos.row + 1, pos.col + 1) == WALL ? 2 : 0) +
+		(level_get_grid(lvl, pos.row + 1, pos.col    ) == WALL ? 1 : 0);
+	srcRect.x = (wallLUT[lutidx] % 4) * skin_size + skin_size/2;
+	srcRect.y = ((wallLUT[lutidx] / 4) + 2) * skin_size + skin_size/2;
+	dstRect.y += dstRect.h;
+	SDL_RenderCopy(renderData->renderer, skin->texture, &srcRect, &dstRect);
+	// Bottom-left
+	lutidx =
+		(level_get_grid(lvl, pos.row    , pos.col - 1) == WALL ? 4 : 0) +
+		(level_get_grid(lvl, pos.row + 1, pos.col - 1) == WALL ? 2 : 0) +
+		(level_get_grid(lvl, pos.row + 1, pos.col    ) == WALL ? 1 : 0);
+	srcRect.x = (wallLUT[lutidx] % 4) * skin_size;
+	srcRect.y = ((wallLUT[lutidx] / 4) + 2) * skin_size + skin_size/2;
+	dstRect.x -= dstRect.w;
+	SDL_RenderCopy(renderData->renderer, skin->texture, &srcRect, &dstRect);
+}
+
+
 static void render_level(RenderData* renderData, Sokolevel* lvl, Texture* skin) {
 	// figure out zoom-out factor
 	int skin_size = skin->width/4; // w,h of skin cells
@@ -72,13 +123,12 @@ static void render_level(RenderData* renderData, Sokolevel* lvl, Texture* skin) 
 	for (pos.row = 0; pos.row < lvl->height; ++pos.row) {
 		dstRect.x = offsx;
 		for (pos.col = 0; pos.col < lvl->width; ++pos.col) {
-			gridVal g = level_get_grid(lvl, pos);
+			gridVal g = level_get_grid(lvl, pos.row, pos.col);
 
 			srcRect.x = 0;
 			srcRect.y = 0;
 			if (g == WALL) { // TODO: use full wall texture info
-				srcRect.x = skin_size;
-				srcRect.y = 3 * skin_size;
+				render_level_wall(renderData, lvl, pos, dstRect, skin);
 			}
 			else if ((g & WORKER) == WORKER) {
 				char mc = tolower(level_last_move(lvl));
@@ -111,7 +161,7 @@ static void render_level(RenderData* renderData, Sokolevel* lvl, Texture* skin) 
 			if ((g & TARGET) == TARGET) {
 				srcRect.y += skin_size;
 			}
-			if (g != OUTSIDE) {
+			if (g != OUTSIDE && g != WALL) {
 				SDL_RenderCopy(renderData->renderer, skin->texture, &srcRect, &dstRect);
 			}
 			dstRect.x += dest_size;
@@ -159,7 +209,8 @@ int main(int argc, char* argv[]) {
 		return errcode;
 	}
 
-	Texture* skin = create_texture(renderData.renderer, "assets/skins/BoxWorldIndigo.png");
+	// Texture* skin = create_texture(renderData.renderer, "assets/skins/BoxWorldIndigo.png");
+	Texture* skin = create_texture(renderData.renderer, "assets/skins/Nightshift2.png");
 	bool quit = false;
 	while (!quit) {
 		SDL_Event e;

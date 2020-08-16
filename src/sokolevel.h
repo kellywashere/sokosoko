@@ -49,8 +49,8 @@ typedef struct Sokolevel {
 Sokolevel* create_level(int w, int h);
 void       destroy_level(Sokolevel* lvl);
 
-void    level_set_grid(Sokolevel* lvl, GridPos pos, gridVal v);
-gridVal level_get_grid(Sokolevel* lvl, GridPos pos);
+void    level_set_grid(Sokolevel* lvl, int row, int col, gridVal v);
+gridVal level_get_grid(Sokolevel* lvl, int row, int col);
 
 // next fns return a char (udlf for normal moves, UDLR for push moves, \0 for no move
 char level_move_left(Sokolevel* lvl);

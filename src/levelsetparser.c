@@ -191,8 +191,7 @@ static void sax_endElement(void* user_data, const xmlChar* name) {
 						v = OUTSIDE;
 						break;
 				}
-				GridPos pos = { data->level_row, c };
-				level_set_grid(data->level, pos, v);
+				level_set_grid(data->level, data->level_row, c, v);
 			}
 			++data->level_row;
 			break;

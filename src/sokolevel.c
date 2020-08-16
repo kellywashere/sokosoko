@@ -31,18 +31,18 @@ void destroy_level(Sokolevel* lvl) {
 	free(lvl);
 }
 
-void level_set_grid(Sokolevel* lvl, GridPos pos, gridVal v) {
-	if (pos.row >= 0 && pos.row < lvl->height && pos.col >= 0 && pos.col < lvl->width) {
-		lvl->grid[lvl->width * pos.row + pos.col] = v;
+void level_set_grid(Sokolevel* lvl, int row, int col, gridVal v) {
+	if (row >= 0 && row < lvl->height && col >= 0 && col < lvl->width) {
+		lvl->grid[lvl->width * row + col] = v;
 	}
 }
 
-gridVal level_get_grid(Sokolevel* lvl, GridPos pos) {
-	if (pos.row >= 0 && pos.row < lvl->height && pos.col >= 0 && pos.col < lvl->width) {
-		return lvl->grid[lvl->width * pos.row + pos.col];
+gridVal level_get_grid(Sokolevel* lvl, int row, int col) {
+	if (row >= 0 && row < lvl->height && col >= 0 && col < lvl->width) {
+		return lvl->grid[lvl->width * row + col];
 	}
 	else {
-		return INVALID;
+		return OUTSIDE; //INVALID;
 	}
 }
 
