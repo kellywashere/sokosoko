@@ -46,6 +46,11 @@ gridVal level_get_grid(Sokolevel* lvl, int row, int col) {
 	}
 }
 
+static void level_print_status(Sokolevel* lvl) {
+	printf("moves: %4d    pushes: %4d    target: %3d/%d\n",
+			level_get_nrMoves(lvl), level_get_nrPushes(lvl), lvl->nrBoxesOnTargets, lvl->nrBoxes);
+}
+
 static char move_to_char(int dr, int dc, bool is_push) { // valid move assumed
 	char mc;
 	if (dr < 0) {
@@ -97,6 +102,7 @@ static void level_add_move(Sokolevel* lvl, char mc) {
 			lvl->movelist->capacity = 256;
 			lvl->movelist->moves = malloc(sizeof(char) * lvl->movelist->capacity);
 			lvl->movelist->nrMoves = 0;
+			lvl->movelist->nrPushes = 0;
 		}
 		else if (lvl->movelist->nrMoves + 1 >= lvl->movelist->capacity) {
 			lvl->movelist->capacity += 256;
@@ -104,6 +110,9 @@ static void level_add_move(Sokolevel* lvl, char mc) {
 					sizeof(char) * lvl->movelist->capacity);
 		}
 		lvl->movelist->moves[lvl->movelist->nrMoves++] = mc;
+		if (isupper(mc)) {
+			++lvl->movelist->nrPushes;
+		}
 	}
 }
 
@@ -147,6 +156,7 @@ static char level_move(Sokolevel* lvl, int dr, int dc) {
 	lvl->workerPos.col = c;
 	mc = move_to_char(dr, dc, is_push);
 	level_add_move(lvl, mc);
+	level_print_status(lvl);
 	return mc;
 }
 
@@ -175,6 +185,9 @@ char level_undo_move(Sokolevel* lvl) {
 	int dr, dc;
 	bool is_push;
 	char_to_move(mc, &dr, &dc, &is_push);
+	if (is_push) {
+		--lvl->movelist->nrPushes;
+	}
 	// undo worker move
 	int r = lvl->workerPos.row;
 	int c = lvl->workerPos.col;
@@ -189,9 +202,10 @@ char level_undo_move(Sokolevel* lvl) {
 			--lvl->nrBoxesOnTargets;
 		}
 		if ((lvl->grid[lvl->width * r + c ] & TARGET) == TARGET) {
-			--lvl->nrBoxesOnTargets;
+			++lvl->nrBoxesOnTargets;
 		}
 	}
+	level_print_status(lvl);
 	return mc;
 }
 
@@ -265,6 +279,20 @@ static bool check_inside_outside(Sokolevel* lvl) {
 	}
 	destroy_stack(s);
 	return all_okay;
+}
+
+unsigned int level_get_nrMoves(Sokolevel* lvl) {
+	if (!lvl->movelist) {
+		return 0;
+	}
+	return lvl->movelist->nrMoves;
+}
+
+unsigned int level_get_nrPushes(Sokolevel* lvl) {
+	if (!lvl->movelist) {
+		return 0;
+	}
+	return lvl->movelist->nrPushes;
 }
 
 bool check_level(Sokolevel* lvl) {

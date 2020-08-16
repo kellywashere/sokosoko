@@ -61,6 +61,9 @@ char level_undo_move(Sokolevel* lvl);
 char level_undo_last_push(Sokolevel* lvl); // undoes everything up to and including last push
 char level_last_move(Sokolevel* lvl);
 
+unsigned int level_get_nrMoves(Sokolevel* lvl);
+unsigned int level_get_nrPushes(Sokolevel* lvl);
+
 bool check_level(Sokolevel* lvl);
 
 void print_level(Sokolevel* lvl);
