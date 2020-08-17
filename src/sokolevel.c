@@ -224,6 +224,10 @@ char level_last_move(Sokolevel* lvl) {
 	return lvl->movelist->moves[lvl->movelist->nrMoves - 1];
 }
 
+bool is_level_won(Sokolevel* lvl) {
+	return lvl->nrBoxesOnTargets == lvl->nrBoxes;
+}
+
 static bool inout_helperfn(Sokolevel* lvl, Stack* s, int r, int c) {
 	// helper fn for in/outside floodfill
 	GridPos pos;

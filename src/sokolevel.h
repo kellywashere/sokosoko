@@ -63,8 +63,9 @@ char level_last_move(Sokolevel* lvl);
 
 unsigned int level_get_nrMoves(Sokolevel* lvl);
 unsigned int level_get_nrPushes(Sokolevel* lvl);
+bool is_level_won(Sokolevel* lvl);
 
-bool check_level(Sokolevel* lvl);
+bool check_level(Sokolevel* lvl); // checks some tallies, marks inside region
 
 void print_level(Sokolevel* lvl);
 #endif
