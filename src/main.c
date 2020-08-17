@@ -120,6 +120,7 @@ int main(int argc, char* argv[]) {
 
 		if (is_level_won(lvl)) {
 			lvl = levelset_next(levelset);
+			init_game_state(&state, lvl);
 		}
 
 		/* Rendering */
