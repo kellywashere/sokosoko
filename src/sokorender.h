@@ -14,6 +14,7 @@ typedef struct RenderData {
 int  init_renderer(RenderData* renderData, bool vsync);
 void destroy_renderer(RenderData* renderData);
 
-void render_level(RenderData* renderData, GameState* state, Texture* skin);
+void render_level(RenderData* renderData, GameState* state, Texture* skin,
+		SDL_Rect* boundRect, bool pow2scaling);
 
 #endif

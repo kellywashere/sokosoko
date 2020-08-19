@@ -6,8 +6,9 @@
 #include "texture.h"
 #include "sokorender.h"
 #include "sokogame.h"
+#include "bitmap_font.h"
 
-static int init_window(RenderData* renderData) {
+static int init_window(RenderData* renderData, bool fullscreen) {
 	renderData->window   = NULL;
 
 	if (SDL_Init(SDL_INIT_VIDEO) < 0 ) {
@@ -18,7 +19,7 @@ static int init_window(RenderData* renderData) {
 	renderData->window = SDL_CreateWindow("SDL Test",
 			SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
 			1024, 768,
-			SDL_WINDOW_SHOWN);
+			SDL_WINDOW_SHOWN | (fullscreen ? SDL_WINDOW_FULLSCREEN_DESKTOP : 0));
 	if (renderData->window == NULL) {
 		fprintf(stderr, "Window could not be created! SDL_Error: %s\n", SDL_GetError() );
 		return 2;
@@ -52,7 +53,7 @@ int main(int argc, char* argv[]) {
 	unsigned int errcode;
 	bool vsync = true;
 
-	errcode = init_window(&renderData);
+	errcode = init_window(&renderData, false);
 	if (errcode) {
 		return errcode;
 	}
@@ -66,6 +67,9 @@ int main(int argc, char* argv[]) {
 	// Texture* skin = create_texture(renderData.renderer, "assets/skins/BoxWorldIndigo.png");
 	Texture* skin = create_texture(renderData.renderer, "assets/skins/Nightshift2.png");
 	// Texture* skin = create_texture(renderData.renderer, "assets/skins/Pacman.png");
+	char* glyphStr = " !\"  % '() +,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	BitmapFont* font = create_bitmap_font(renderData.renderer,
+			"assets/fonts/kromagrad_16x16.png", 16, 16, glyphStr);
 
 	Uint32 now_ticks = SDL_GetTicks();
 	GameState state;
@@ -99,6 +103,16 @@ int main(int argc, char* argv[]) {
 					case SDLK_u:
 						level_undo_last_push(lvl);
 						break;
+					case SDLK_n:
+						levelset_next(levelset);
+						lvl = levelset_cur(levelset);
+						init_game_state(&state, lvl);
+						break;
+					case SDLK_p:
+						levelset_prev(levelset);
+						lvl = levelset_cur(levelset);
+						init_game_state(&state, lvl);
+						break;
 					case SDLK_ESCAPE:
 					case SDLK_q:
 						quit = true;
@@ -119,16 +133,32 @@ int main(int argc, char* argv[]) {
 		game_update(&state, time_passed);
 
 		if (is_level_won(lvl)) {
-			lvl = levelset_next(levelset);
+			levelset_next(levelset);
+			lvl = levelset_cur(levelset);
 			init_game_state(&state, lvl);
 		}
 
 		/* Rendering */
+		int win_w, win_h;
+		SDL_GetWindowSize(renderData.window, &win_w, &win_h);
+
 		SDL_RenderClear(renderData.renderer);
-		render_level(&renderData, &state, skin);
+
+		SDL_Rect renderRect = {8,40, win_w - 16, win_h - 32 - 16};
+		render_level(&renderData, &state, skin, &renderRect, false);
+
+		char buf[80];
+		sprintf(buf, "MOVES: %d", level_get_nrMoves(lvl));
+		int w = render_text(renderData.renderer, font, 16, 8, buf);
+		sprintf(buf, "PUSHES: %d", level_get_nrPushes(lvl));
+		w += render_text(renderData.renderer, font, 64 + w, 8, buf);
+		sprintf(buf, "LEVEL: %d", levelset_get_levelnr(levelset));
+		render_text(renderData.renderer, font, win_w - strlen(buf) * font->charWidth - 8, 8, buf);
+
 		SDL_RenderPresent(renderData.renderer);
 	}
 
+	destroy_bitmap_font(font);
 	destroy_texture(skin);
 	destroy_renderer(&renderData);
 	destroy_window(&renderData);

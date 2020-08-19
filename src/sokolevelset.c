@@ -77,6 +77,13 @@ Sokolevel* levelset_first(Sokolevelset* set) {
 	return set->current->level;
 }
 
+int levelset_get_levelnr(Sokolevelset* set) {
+	if (!set->current) {
+		return 0;
+	}
+	return set->current->nrInSet;
+}
+
 unsigned int levelset_size(Sokolevelset* set) {
 	if (set->last) {
 		return set->last->nrInSet;

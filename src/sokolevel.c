@@ -156,7 +156,7 @@ static char level_move(Sokolevel* lvl, int dr, int dc) {
 	lvl->workerPos.col = c;
 	mc = move_to_char(dr, dc, is_push);
 	level_add_move(lvl, mc);
-	level_print_status(lvl);
+	// level_print_status(lvl);
 	return mc;
 }
 

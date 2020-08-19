@@ -29,10 +29,12 @@ void          destroy_levelset(Sokolevelset* set); // also destroys all levels w
 
 void levelset_add_level(Sokolevelset* set, Sokolevel* lvl); // always adds to end of list
 
-Sokolevel* levelset_cur(Sokolevelset* set);        // returns current level
-Sokolevel* levelset_prev(Sokolevelset* set);       // go back one level, return pointer to that
-Sokolevel* levelset_next(Sokolevelset* set);       // go to next level, return pointer to that
-Sokolevel* levelset_first(Sokolevelset* set);      // go to first level, returns pointer to it
+Sokolevel* levelset_cur(Sokolevelset* set);          // returns current level
+Sokolevel* levelset_prev(Sokolevelset* set);         // go back one level, return pointer to that
+Sokolevel* levelset_next(Sokolevelset* set);         // go to next level, return pointer to that
+Sokolevel* levelset_first(Sokolevelset* set);        // go to first level, returns pointer to it
+
+int        levelset_get_levelnr(Sokolevelset* set);  // return nrInSet
 
 unsigned int levelset_size(Sokolevelset* set);     // returns nr of levels in set
 

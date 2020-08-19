@@ -161,7 +161,7 @@ static void sax_endElement(void* user_data, const xmlChar* name) {
 			data->state = COLLECTION;
 			if (check_level(data->level)) {
 				levelset_add_level(data->levelset, data->level);
-				printf("adding level\n");
+				// printf("adding level\n");
 			}
 			break;
 		case LEVEL_ROW:

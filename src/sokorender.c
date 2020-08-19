@@ -68,22 +68,34 @@ static void render_level_wall(RenderData* renderData, Sokolevel* lvl, GridPos po
 }
 
 
-void render_level(RenderData* renderData, GameState* state, Texture* skin) {
+void render_level(RenderData* renderData, GameState* state, Texture* skin,
+		SDL_Rect* boundRect, bool pow2scaling) {
 	Sokolevel* lvl = state->lvl;
 	// figure out zoom-out factor
 	int skin_size = skin->width/4; // w,h of skin cells
-	int lvl_w_px = lvl->width * skin_size;
-	int lvl_h_px = lvl->height * skin_size;
-	int win_w, win_h;
-	SDL_GetWindowSize(renderData->window, &win_w, &win_h);
-	int dest_size = skin_size; // will contain cell size on destination
-	while (lvl_w_px > win_w || lvl_h_px > win_h) {
-		lvl_w_px /= 2;
-		lvl_h_px /= 2;
-		dest_size /= 2;
+	int lvl_w_px;  // level width in px
+	int lvl_h_px;  // level height in px
+	int dest_size; // will contain cell size on destination
+	if (pow2scaling) {
+ 		dest_size = skin_size; 
+		lvl_w_px = lvl->width * skin_size;
+		lvl_h_px = lvl->height * skin_size;
+		while (lvl_w_px > boundRect->w || lvl_h_px > boundRect->h) {
+			lvl_w_px /= 2;
+			lvl_h_px /= 2;
+			dest_size /= 2;
+		}
 	}
-	int offsx = (win_w - lvl_w_px)/2;
-	int offsy = (win_h - lvl_h_px)/2;
+	else {
+		int dest_size_w = ((boundRect->w / lvl->width) / 2) * 2; // shld be even
+		int dest_size_h = ((boundRect->h / lvl->height) / 2) * 2; // shld be even
+		dest_size = dest_size_w < dest_size_h ? dest_size_w : dest_size_h;
+		lvl_w_px = lvl->width * dest_size;
+		lvl_h_px = lvl->height * dest_size;
+	}
+
+	int offsx = boundRect->x + (boundRect->w - lvl_w_px)/2;
+	int offsy = boundRect->y + (boundRect->h - lvl_h_px)/2;
 
 	// render level
 	SDL_Rect srcRect = {0, 0, skin_size, skin_size};
