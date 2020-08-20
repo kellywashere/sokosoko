@@ -1,0 +1,2082 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="HomeMade3.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 512 1024"
+   height="1024"
+   width="512">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     inkscape:snap-smooth-nodes="true"
+     inkscape:object-paths="false"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1015"
+     inkscape:window-width="1920"
+     inkscape:guide-bbox="true"
+     showguides="true"
+     units="px"
+     showgrid="true"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     inkscape:cy="-217.7686"
+     inkscape:cx="-132.42954"
+     inkscape:zoom="0.25"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.28627451"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#000000"
+     id="base"
+     guidecolor="#25ff49"
+     guideopacity="0.63137255"
+     inkscape:snap-bbox="true"
+     inkscape:snap-nodes="true"
+     inkscape:snap-others="false"
+     inkscape:bbox-paths="true"
+     inkscape:snap-to-guides="false"
+     inkscape:lockguides="true">
+    <inkscape:grid
+       spacingx="1"
+       empspacing="16"
+       id="grid10"
+       type="xygrid" />
+    <sodipodi:guide
+       id="guide12"
+       orientation="0,512"
+       position="0,1024"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       id="guide16"
+       orientation="0,-512"
+       position="512,0"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       id="guide18"
+       orientation="-1024,0"
+       position="0,0"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="256,640"
+       orientation="0,-1"
+       id="guide32"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="128,512"
+       orientation="0,-1"
+       id="guide34"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="256,384"
+       orientation="0,-1"
+       id="guide36"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="0,256"
+       orientation="0,-1"
+       id="guide38"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="256,128"
+       orientation="0,-1"
+       id="guide40"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="256,896"
+       orientation="0,-1"
+       id="guide42"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="128,768"
+       orientation="0,-1"
+       id="guide44"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="256,768"
+       orientation="1,0"
+       id="guide48"
+       inkscape:locked="true" />
+    <sodipodi:guide
+       position="384,1024"
+       orientation="-1,0"
+       id="guide50"
+       inkscape:label=""
+       inkscape:locked="true"
+       inkscape:color="rgb(37,255,73)" />
+    <sodipodi:guide
+       inkscape:color="rgb(37,255,73)"
+       inkscape:locked="false"
+       inkscape:label=""
+       id="guide1157"
+       orientation="-1,0"
+       position="128,1024" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="All">
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="256"
+       x="0"
+       height="128"
+       width="128"
+       id="rect1377"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="path1167"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#41616d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="M 16,384 C 16,370 14,368 0,368 v -96 c 14,0 16,-2 16,-16 h 96 c 0,14 2,16 16,16 v 96 c -14,0 -16,2 -16,16 z"
+       sodipodi:nodetypes="ccccccccc"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="384"
+       x="128"
+       height="128"
+       width="128"
+       id="rect1381"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <path
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="path1197"
+       style="fill:#41616d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:17.5271;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-color:#000000;stop-opacity:1"
+       d="m 224,496 c 14,0 16,-2 16,-16 v -64 c 0,-14 -2,-16 -16,-16 h -64 c -14,0 -16,2 -16,16 v 64 c 0,14 2,16 16,16 z"
+       sodipodi:nodetypes="ccccccccc" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect1304"
+       width="128"
+       height="128"
+       x="0"
+       y="384"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <path
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       sodipodi:nodetypes="ccccc"
+       d="m 16,384 h 96 V 512 H 16 Z"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#41616d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="rect1481" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect1379"
+       width="128"
+       height="128"
+       x="128"
+       y="256"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="rect1478"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#41616d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="m 128,272 h 128 v 96 H 128 Z"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="path1241"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       d="M 384,128 H 512 V 256 H 384 Z"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect921"
+       width="128"
+       height="128"
+       x="256"
+       y="128"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-rule:evenodd;fill-opacity:1"
+       id="rect52"
+       width="128"
+       height="128"
+       x="0"
+       y="0"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="128"
+       x="0"
+       height="128"
+       width="128"
+       id="rect877"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="rect889"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       d="M 256,0 H 384 V 128 H 256 Z"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect946"
+       width="128"
+       height="128"
+       x="128"
+       y="128"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="g1579"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <path
+         style="fill:none;stroke:#e1e11e;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 160,160 64,64"
+         id="path948"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path950"
+         d="m 160,224 64,-64"
+         style="fill:none;stroke:#e1e11e;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-variation-settings:normal;opacity:1;vector-effect:none;fill-opacity:1;stroke-dashoffset:0;stop-color:#000000;stop-opacity:1" />
+    </g>
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="0"
+       x="128"
+       height="128"
+       width="128"
+       id="rect944"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="g1653"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <rect
+         y="21"
+         x="160"
+         height="24"
+         width="16"
+         id="rect957"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect963"
+         width="16"
+         height="24"
+         x="153"
+         y="56" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect965"
+         width="16"
+         height="24"
+         x="208"
+         y="21" />
+      <rect
+         y="56"
+         x="215"
+         height="24"
+         width="16"
+         id="rect967"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 176,16 h 32 l 16,80 h -64 z"
+         style="fill:#e2e21d;fill-opacity:1;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect952" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 152,98 h 78 v 9 h -78 z"
+         style="fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect971" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path973"
+         d="m 160,98 -10,24 h -6 l 5,-24 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 224,98 10,24 h 6 l -5,-24 z"
+         id="path1003"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1009"
+         d="M 176,16 V 64 L 160,96 Z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 208,16 v 48 l 16,32 z"
+         id="path1033" />
+      <path
+         id="path1035"
+         d="m 160,96 16,-32 h 32 l 16,32 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#ddea5a;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 176,82 h 32 v 6 h -32 z"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect961" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 186,72 h 12 l 10,10 h -32 z"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1005" />
+      <rect
+         y="91"
+         x="179"
+         height="3"
+         width="26"
+         id="rect1055"
+         style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       d="M 384,0 H 512 V 128 H 384 Z"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="path1201"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect1308"
+       width="128"
+       height="128"
+       x="0"
+       y="640"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="768"
+       x="0"
+       height="128"
+       width="128"
+       id="rect1310"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect1312"
+       width="128"
+       height="128"
+       x="0"
+       y="896"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#38d1d2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       d="M 128,272 H 256"
+       id="path1359"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="path1375"
+       d="M 128,368 H 256"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#38d1d2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="640"
+       x="128"
+       height="128"
+       width="128"
+       id="rect1385"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect1387"
+       width="128"
+       height="128"
+       x="128"
+       y="768"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="896"
+       x="128"
+       height="128"
+       width="128"
+       id="rect1389"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="256"
+       x="256"
+       height="128"
+       width="128"
+       id="rect1391"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect1393"
+       width="128"
+       height="128"
+       x="256"
+       y="384"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect1397"
+       width="128"
+       height="128"
+       x="256"
+       y="640"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="768"
+       x="256"
+       height="128"
+       width="128"
+       id="rect1399"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect1401"
+       width="128"
+       height="128"
+       x="256"
+       y="896"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect1403"
+       width="128"
+       height="128"
+       x="384"
+       y="256"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="384"
+       x="384"
+       height="128"
+       width="128"
+       id="rect1405"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="640"
+       x="384"
+       height="128"
+       width="128"
+       id="rect1409"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect1411"
+       width="128"
+       height="128"
+       x="384"
+       y="768"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="896"
+       x="384"
+       height="128"
+       width="128"
+       id="rect1413"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="path1441"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#38d1d2;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 0,272 c 14,0 16,-2 16,-16"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <path
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="path1431"
+       d="M 16,512 V 384"
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#38d1d2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+    <path
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="font-variation-settings:normal;vector-effect:none;fill:none;fill-opacity:1;stroke:#38d1d2;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+       d="M 112,512 V 384"
+       id="path1433" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="g1585"
+       transform="translate(-128)"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1581"
+         d="m 160,160 64,64"
+         style="fill:none;stroke:#e1e11e;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#e1e11e;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         d="m 160,224 64,-64"
+         id="path1583"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="g1683"
+       transform="translate(0,128)"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1655"
+         width="16"
+         height="24"
+         x="160"
+         y="21" />
+      <rect
+         y="56"
+         x="153"
+         height="24"
+         width="16"
+         id="rect1657"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="21"
+         x="208"
+         height="24"
+         width="16"
+         id="rect1659"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1661"
+         width="16"
+         height="24"
+         x="215"
+         y="56" />
+      <path
+         id="path1663"
+         style="fill:#e2e21d;fill-opacity:1;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 176,16 h 32 l 16,80 h -64 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1665"
+         style="fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 152,98 h 78 v 9 h -78 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 160,98 -10,24 h -6 l 5,-24 z"
+         id="path1667"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path1669"
+         d="m 224,98 10,24 h 6 l -5,-24 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="M 176,16 V 64 L 160,96 Z"
+         id="path1671" />
+      <path
+         id="path1673"
+         d="m 208,16 v 48 l 16,32 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#ddea5a;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 160,96 16,-32 h 32 l 16,32 z"
+         id="path1675" />
+      <path
+         id="path1677"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 176,82 h 32 v 6 h -32 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1679"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 186,72 h 12 l 10,10 h -32 z"
+         sodipodi:nodetypes="ccccc" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect1681"
+         width="26"
+         height="3"
+         x="179"
+         y="91" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       sodipodi:nodetypes="ccccc"
+       d="M 256,256 H 384 V 384 H 256 Z"
+       style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:#41616d;fill-opacity:1;stroke:none;stroke-width:26.2906;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+       id="path1685"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect1687"
+       width="128"
+       height="128"
+       x="-128"
+       y="-640"
+       transform="scale(-1)"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="g1717"
+       transform="rotate(180,128,320)"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1689"
+         width="16"
+         height="24"
+         x="160"
+         y="21" />
+      <rect
+         y="56"
+         x="153"
+         height="24"
+         width="16"
+         id="rect1691"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="21"
+         x="208"
+         height="24"
+         width="16"
+         id="rect1693"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1695"
+         width="16"
+         height="24"
+         x="215"
+         y="56" />
+      <path
+         id="path1697"
+         style="fill:#e2e21d;fill-opacity:1;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 176,16 h 32 l 16,80 h -64 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1699"
+         style="fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 152,98 h 78 v 9 h -78 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 160,98 -10,24 h -6 l 5,-24 z"
+         id="path1701"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path1703"
+         d="m 224,98 10,24 h 6 l -5,-24 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="M 176,16 V 64 L 160,96 Z"
+         id="path1705" />
+      <path
+         id="path1707"
+         d="m 208,16 v 48 l 16,32 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#ddea5a;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 160,96 16,-32 h 32 l 16,32 z"
+         id="path1709" />
+      <path
+         id="path1711"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 176,82 h 32 v 6 h -32 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1713"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 186,72 h 12 l 10,10 h -32 z"
+         sodipodi:nodetypes="ccccc" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect1715"
+         width="26"
+         height="3"
+         x="179"
+         y="91" />
+    </g>
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="-256"
+       x="512"
+       height="128"
+       width="128"
+       id="rect1737"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       transform="rotate(90)"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       transform="rotate(90,-64,320)"
+       id="g1767"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <rect
+         y="21"
+         x="160"
+         height="24"
+         width="16"
+         id="rect1739"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1741"
+         width="16"
+         height="24"
+         x="153"
+         y="56" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1743"
+         width="16"
+         height="24"
+         x="208"
+         y="21" />
+      <rect
+         y="56"
+         x="215"
+         height="24"
+         width="16"
+         id="rect1745"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 176,16 h 32 l 16,80 h -64 z"
+         style="fill:#e2e21d;fill-opacity:1;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1747" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 152,98 h 78 v 9 h -78 z"
+         style="fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1749" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path1751"
+         d="m 160,98 -10,24 h -6 l 5,-24 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 224,98 10,24 h 6 l -5,-24 z"
+         id="path1753"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1755"
+         d="M 176,16 V 64 L 160,96 Z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 208,16 v 48 l 16,32 z"
+         id="path1757" />
+      <path
+         id="path1759"
+         d="m 160,96 16,-32 h 32 l 16,32 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#ddea5a;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 176,82 h 32 v 6 h -32 z"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1761" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 186,72 h 12 l 10,10 h -32 z"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1763" />
+      <rect
+         y="91"
+         x="179"
+         height="3"
+         width="26"
+         id="rect1765"
+         style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+    </g>
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       id="rect1771"
+       width="128"
+       height="128"
+       x="256"
+       y="512"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="g1801"
+       transform="translate(128,512)"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1773"
+         width="16"
+         height="24"
+         x="160"
+         y="21" />
+      <rect
+         y="56"
+         x="153"
+         height="24"
+         width="16"
+         id="rect1775"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="21"
+         x="208"
+         height="24"
+         width="16"
+         id="rect1777"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1779"
+         width="16"
+         height="24"
+         x="215"
+         y="56" />
+      <path
+         id="path1781"
+         style="fill:#e2e21d;fill-opacity:1;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 176,16 h 32 l 16,80 h -64 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1783"
+         style="fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 152,98 h 78 v 9 h -78 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 160,98 -10,24 h -6 l 5,-24 z"
+         id="path1785"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path1787"
+         d="m 224,98 10,24 h 6 l -5,-24 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="M 176,16 V 64 L 160,96 Z"
+         id="path1789" />
+      <path
+         id="path1791"
+         d="m 208,16 v 48 l 16,32 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#ddea5a;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 160,96 16,-32 h 32 l 16,32 z"
+         id="path1793" />
+      <path
+         id="path1795"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 176,82 h 32 v 6 h -32 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1797"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 186,72 h 12 l 10,10 h -32 z"
+         sodipodi:nodetypes="ccccc" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect1799"
+         width="26"
+         height="3"
+         x="179"
+         y="91" />
+    </g>
+    <rect
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       y="384"
+       x="-640"
+       height="128"
+       width="128"
+       id="rect1805"
+       style="fill:#2a103c;fill-opacity:1;fill-rule:evenodd"
+       transform="rotate(-90)"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       transform="rotate(-90,576,192)"
+       id="g1835"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <rect
+         y="21"
+         x="160"
+         height="24"
+         width="16"
+         id="rect1807"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1809"
+         width="16"
+         height="24"
+         x="153"
+         y="56" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1811"
+         width="16"
+         height="24"
+         x="208"
+         y="21" />
+      <rect
+         y="56"
+         x="215"
+         height="24"
+         width="16"
+         id="rect1813"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 176,16 h 32 l 16,80 h -64 z"
+         style="fill:#e2e21d;fill-opacity:1;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1815" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 152,98 h 78 v 9 h -78 z"
+         style="fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1817" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path1819"
+         d="m 160,98 -10,24 h -6 l 5,-24 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 224,98 10,24 h 6 l -5,-24 z"
+         id="path1821"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1823"
+         d="M 176,16 V 64 L 160,96 Z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 208,16 v 48 l 16,32 z"
+         id="path1825" />
+      <path
+         id="path1827"
+         d="m 160,96 16,-32 h 32 l 16,32 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#ddea5a;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 176,82 h 32 v 6 h -32 z"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1829" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 186,72 h 12 l 10,10 h -32 z"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1831" />
+      <rect
+         y="91"
+         x="179"
+         height="3"
+         width="26"
+         id="rect1833"
+         style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+    </g>
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       transform="translate(-128,512)"
+       id="g1843"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <path
+         style="fill:none;stroke:#e1e11e;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 160,160 64,64"
+         id="path1839"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1841"
+         d="m 160,224 64,-64"
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#e1e11e;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1" />
+    </g>
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="g1849"
+       transform="translate(0,512)"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1845"
+         d="m 160,160 64,64"
+         style="fill:none;stroke:#e1e11e;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#e1e11e;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         d="m 160,224 64,-64"
+         id="path1847"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       transform="translate(128,512)"
+       id="g1855"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <path
+         style="fill:none;stroke:#e1e11e;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 160,160 64,64"
+         id="path1851"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1853"
+         d="m 160,224 64,-64"
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#e1e11e;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1" />
+    </g>
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="g1861"
+       transform="translate(256,512)"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192">
+      <path
+         sodipodi:nodetypes="cc"
+         id="path1857"
+         d="m 160,160 64,64"
+         style="fill:none;stroke:#e1e11e;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#e1e11e;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+         d="m 160,224 64,-64"
+         id="path1859"
+         sodipodi:nodetypes="cc" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="sssssssss"
+       d="m 280,8 h 80 c 8.864,0 16,7.136 16,16 v 80 c 0,8.864 -7.136,16 -16,16 h -80 c -8.864,0 -16,-7.136 -16,-16 V 24 c 0,-8.864 7.136,-16 16,-16 z"
+       style="fill:#79aeb2;fill-opacity:1;stroke:none;stroke-width:16;stop-color:#000000"
+       id="rect2262" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       style="opacity:1"
+       id="g2269">
+      <path
+         id="path2271"
+         d="m 272,32 c 0,-16 0,-16 16,-16"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#79aeb2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1.0;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1;" />
+      <path
+         sodipodi:nodetypes="csccscc"
+         id="path2273"
+         d="m 278.30859,12.275391 c -2.63785,0.293095 -5.19391,0.953675 -7.13671,2.896484 -1.94281,1.942809 -2.60339,4.498862 -2.89649,7.136719 -0.76719,13.680164 7.22219,8.878264 7.94922,0.882812 0.2069,-1.862143 0.54632,-2.30609 0.60351,-2.363281 0.0572,-0.05719 0.50114,-0.396611 2.36329,-0.603516 13.56361,-0.954998 11.42334,-9.254991 -0.88282,-7.949218 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#dbddd9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 288,32 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#da3232;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="rect2275" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2278"
+       style="opacity:0.996;fill:#da3232;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="m 328,32 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 328,72 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#da3232;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="path2280" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2282"
+       style="opacity:0.996;fill:#da3232;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="m 288,72 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2300"
+       style="fill:#79aeb2;fill-opacity:1;stroke:none;stroke-width:16;stop-color:#000000"
+       d="m 280,136 h 80 c 8.864,0 16,7.136 16,16 v 80 c 0,8.864 -7.136,16 -16,16 h -80 c -8.864,0 -16,-7.136 -16,-16 v -80 c 0,-8.864 7.136,-16 16,-16 z"
+       sodipodi:nodetypes="sssssssss" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       transform="translate(0,128)"
+       id="g2306"
+       style="opacity:1">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#79aeb2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 272,32 c 0,-16 0,-16 16,-16"
+         id="path2302" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#dbddd9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 278.30859,12.275391 c -2.63785,0.293095 -5.19391,0.953675 -7.13671,2.896484 -1.94281,1.942809 -2.60339,4.498862 -2.89649,7.136719 -0.76719,13.680164 7.22219,8.878264 7.94922,0.882812 0.2069,-1.862143 0.54632,-2.30609 0.60351,-2.363281 0.0572,-0.05719 0.50114,-0.396611 2.36329,-0.603516 13.56361,-0.954998 11.42334,-9.254991 -0.88282,-7.949218 z"
+         id="path2304"
+         sodipodi:nodetypes="csccscc" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2308"
+       style="opacity:0.996;fill:#86f06b;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="m 288,160 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 328,160 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#86f06b;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="path2310" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2312"
+       style="opacity:0.996;fill:#86f06b;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="m 328,200 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 288,200 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#86f06b;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="path2314" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2316"
+       style="fill:#79aeb2;fill-opacity:1;stroke:none;stroke-width:16;stop-color:#000000"
+       d="m 280,776 h 80 c 8.864,0 16,7.136 16,16 v 80 c 0,8.864 -7.136,16 -16,16 h -80 c -8.864,0 -16,-7.136 -16,-16 v -80 c 0,-8.864 7.136,-16 16,-16 z"
+       sodipodi:nodetypes="sssssssss" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       transform="translate(0,768)"
+       id="g2322"
+       style="opacity:1">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#79aeb2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 272,32 c 0,-16 0,-16 16,-16"
+         id="path2318" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#dbddd9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 278.30859,12.275391 c -2.63785,0.293095 -5.19391,0.953675 -7.13671,2.896484 -1.94281,1.942809 -2.60339,4.498862 -2.89649,7.136719 -0.76719,13.680164 7.22219,8.878264 7.94922,0.882812 0.2069,-1.862143 0.54632,-2.30609 0.60351,-2.363281 0.0572,-0.05719 0.50114,-0.396611 2.36329,-0.603516 13.56361,-0.954998 11.42334,-9.254991 -0.88282,-7.949218 z"
+         id="path2320"
+         sodipodi:nodetypes="csccscc" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2324"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       d="m 288,800 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 328,800 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       id="path2326" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2328"
+       style="opacity:0.996;fill:#da3232;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="m 328,840 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 288,840 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       id="path2330" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="sssssssss"
+       d="m 280,904 h 80 c 8.864,0 16,7.136 16,16 v 80 c 0,8.864 -7.136,16 -16,16 h -80 c -8.864,0 -16,-7.136 -16,-16 v -80 c 0,-8.864 7.136,-16 16,-16 z"
+       style="fill:#79aeb2;fill-opacity:1;stroke:none;stroke-width:16;stop-color:#000000"
+       id="path2332" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       style="opacity:1"
+       id="g2338"
+       transform="translate(0,896)">
+      <path
+         id="path2334"
+         d="m 272,32 c 0,-16 0,-16 16,-16"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#79aeb2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1" />
+      <path
+         sodipodi:nodetypes="csccscc"
+         id="path2336"
+         d="m 278.30859,12.275391 c -2.63785,0.293095 -5.19391,0.953675 -7.13671,2.896484 -1.94281,1.942809 -2.60339,4.498862 -2.89649,7.136719 -0.76719,13.680164 7.22219,8.878264 7.94922,0.882812 0.2069,-1.862143 0.54632,-2.30609 0.60351,-2.363281 0.0572,-0.05719 0.50114,-0.396611 2.36329,-0.603516 13.56361,-0.954998 11.42334,-9.254991 -0.88282,-7.949218 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#dbddd9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 288,928 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       id="path2340" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2342"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       d="m 328,928 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 328,968 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#86f06b;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="path2344" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2346"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       d="m 288,968 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="sssssssss"
+       d="m 408,776 h 80 c 8.864,0 16,7.136 16,16 v 80 c 0,8.864 -7.136,16 -16,16 h -80 c -8.864,0 -16,-7.136 -16,-16 v -80 c 0,-8.864 7.136,-16 16,-16 z"
+       style="fill:#79aeb2;fill-opacity:1;stroke:none;stroke-width:16;stop-color:#000000"
+       id="path2348" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       style="opacity:1"
+       id="g2354"
+       transform="translate(128,768)">
+      <path
+         id="path2350"
+         d="m 272,32 c 0,-16 0,-16 16,-16"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#79aeb2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1" />
+      <path
+         sodipodi:nodetypes="csccscc"
+         id="path2352"
+         d="m 278.30859,12.275391 c -2.63785,0.293095 -5.19391,0.953675 -7.13671,2.896484 -1.94281,1.942809 -2.60339,4.498862 -2.89649,7.136719 -0.76719,13.680164 7.22219,8.878264 7.94922,0.882812 0.2069,-1.862143 0.54632,-2.30609 0.60351,-2.363281 0.0572,-0.05719 0.50114,-0.396611 2.36329,-0.603516 13.56361,-0.954998 11.42334,-9.254991 -0.88282,-7.949218 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#dbddd9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 416,800 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       id="path2356" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2358"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       d="m 456,800 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 456,840 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       id="path2360" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2362"
+       style="opacity:0.996;fill:#da3232;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="m 416,840 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2364"
+       style="fill:#79aeb2;fill-opacity:1;stroke:none;stroke-width:16;stop-color:#000000"
+       d="m 408,904 h 80 c 8.864,0 16,7.136 16,16 v 80 c 0,8.864 -7.136,16 -16,16 h -80 c -8.864,0 -16,-7.136 -16,-16 v -80 c 0,-8.864 7.136,-16 16,-16 z"
+       sodipodi:nodetypes="sssssssss" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       transform="translate(128,896)"
+       id="g2370"
+       style="opacity:1">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#79aeb2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 272,32 c 0,-16 0,-16 16,-16"
+         id="path2366" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#dbddd9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 278.30859,12.275391 c -2.63785,0.293095 -5.19391,0.953675 -7.13671,2.896484 -1.94281,1.942809 -2.60339,4.498862 -2.89649,7.136719 -0.76719,13.680164 7.22219,8.878264 7.94922,0.882812 0.2069,-1.862143 0.54632,-2.30609 0.60351,-2.363281 0.0572,-0.05719 0.50114,-0.396611 2.36329,-0.603516 13.56361,-0.954998 11.42334,-9.254991 -0.88282,-7.949218 z"
+         id="path2368"
+         sodipodi:nodetypes="csccscc" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2372"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       d="m 416,928 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 456,928 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       id="path2374" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2376"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       d="m 456,968 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 416,968 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#86f06b;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="path2378" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="sssssssss"
+       d="m 152,776 h 80 c 8.864,0 16,7.136 16,16 v 80 c 0,8.864 -7.136,16 -16,16 h -80 c -8.864,0 -16,-7.136 -16,-16 v -80 c 0,-8.864 7.136,-16 16,-16 z"
+       style="fill:#79aeb2;fill-opacity:1;stroke:none;stroke-width:16;stop-color:#000000"
+       id="path2380" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       style="opacity:1"
+       id="g2386"
+       transform="translate(-128,768)">
+      <path
+         id="path2382"
+         d="m 272,32 c 0,-16 0,-16 16,-16"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#79aeb2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1" />
+      <path
+         sodipodi:nodetypes="csccscc"
+         id="path2384"
+         d="m 278.30859,12.275391 c -2.63785,0.293095 -5.19391,0.953675 -7.13671,2.896484 -1.94281,1.942809 -2.60339,4.498862 -2.89649,7.136719 -0.76719,13.680164 7.22219,8.878264 7.94922,0.882812 0.2069,-1.862143 0.54632,-2.30609 0.60351,-2.363281 0.0572,-0.05719 0.50114,-0.396611 2.36329,-0.603516 13.56361,-0.954998 11.42334,-9.254991 -0.88282,-7.949218 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#dbddd9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 160,800 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       id="path2388" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2390"
+       style="opacity:0.996;fill:#da3232;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="m 200,800 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 200,840 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       id="path2392" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2394"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       d="m 160,840 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2396"
+       style="fill:#79aeb2;fill-opacity:1;stroke:none;stroke-width:16;stop-color:#000000"
+       d="m 152,904 h 80 c 8.864,0 16,7.136 16,16 v 80 c 0,8.864 -7.136,16 -16,16 h -80 c -8.864,0 -16,-7.136 -16,-16 v -80 c 0,-8.864 7.136,-16 16,-16 z"
+       sodipodi:nodetypes="sssssssss" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       transform="translate(-128,896)"
+       id="g2402"
+       style="opacity:1">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#79aeb2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 272,32 c 0,-16 0,-16 16,-16"
+         id="path2398" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#dbddd9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 278.30859,12.275391 c -2.63785,0.293095 -5.19391,0.953675 -7.13671,2.896484 -1.94281,1.942809 -2.60339,4.498862 -2.89649,7.136719 -0.76719,13.680164 7.22219,8.878264 7.94922,0.882812 0.2069,-1.862143 0.54632,-2.30609 0.60351,-2.363281 0.0572,-0.05719 0.50114,-0.396611 2.36329,-0.603516 13.56361,-0.954998 11.42334,-9.254991 -0.88282,-7.949218 z"
+         id="path2400"
+         sodipodi:nodetypes="csccscc" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2404"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       d="m 160,928 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 200,928 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#86f06b;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="path2406" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2408"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       d="m 200,968 h 24 v 24 h -24 z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 160,968 h 24 v 24 h -24 z"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       id="path2410" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2412"
+       style="fill:#79aeb2;fill-opacity:1;stroke:none;stroke-width:16;stop-color:#000000"
+       d="m 24,776 h 80 c 8.864,0 16,7.136 16,16 v 80 c 0,8.864 -7.136,16 -16,16 H 24 C 15.136,888 8,880.864 8,872 v -80 c 0,-8.864 7.136,-16 16,-16 z"
+       sodipodi:nodetypes="sssssssss" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       transform="translate(-256,768)"
+       id="g2418"
+       style="opacity:1">
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#79aeb2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 272,32 c 0,-16 0,-16 16,-16"
+         id="path2414" />
+      <path
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#dbddd9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         d="m 278.30859,12.275391 c -2.63785,0.293095 -5.19391,0.953675 -7.13671,2.896484 -1.94281,1.942809 -2.60339,4.498862 -2.89649,7.136719 -0.76719,13.680164 7.22219,8.878264 7.94922,0.882812 0.2069,-1.862143 0.54632,-2.30609 0.60351,-2.363281 0.0572,-0.05719 0.50114,-0.396611 2.36329,-0.603516 13.56361,-0.954998 11.42334,-9.254991 -0.88282,-7.949218 z"
+         id="path2416"
+         sodipodi:nodetypes="csccscc" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2420"
+       style="opacity:0.996;fill:#da3232;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       d="m 32,800 h 24 v 24 H 32 Z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 72,800 h 24 v 24 H 72 Z"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="path2422" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2424"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       d="m 72,840 h 24 v 24 H 72 Z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 32,840 h 24 v 24 H 32 Z"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       id="path2426" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="sssssssss"
+       d="m 24,904 h 80 c 8.864,0 16,7.136 16,16 v 80 c 0,8.864 -7.136,16 -16,16 H 24 c -8.864,0 -16,-7.136 -16,-16 v -80 c 0,-8.864 7.136,-16 16,-16 z"
+       style="fill:#79aeb2;fill-opacity:1;stroke:none;stroke-width:16;stop-color:#000000"
+       id="path2428" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       style="opacity:1"
+       id="g2434"
+       transform="translate(-256,896)">
+      <path
+         id="path2430"
+         d="m 272,32 c 0,-16 0,-16 16,-16"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#79aeb2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1" />
+      <path
+         sodipodi:nodetypes="csccscc"
+         id="path2432"
+         d="m 278.30859,12.275391 c -2.63785,0.293095 -5.19391,0.953675 -7.13671,2.896484 -1.94281,1.942809 -2.60339,4.498862 -2.89649,7.136719 -0.76719,13.680164 7.22219,8.878264 7.94922,0.882812 0.2069,-1.862143 0.54632,-2.30609 0.60351,-2.363281 0.0572,-0.05719 0.50114,-0.396611 2.36329,-0.603516 13.56361,-0.954998 11.42334,-9.254991 -0.88282,-7.949218 z"
+         style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;shape-margin:0;inline-size:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#dbddd9;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:8;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate;stop-color:#000000;stop-opacity:1" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 32,928 h 24 v 24 H 32 Z"
+       style="opacity:0.996;fill:#86f06b;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="path2436" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2438"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       d="m 72,928 h 24 v 24 H 72 Z"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="ccccc"
+       d="m 72,968 h 24 v 24 H 72 Z"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       id="path2440" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="path2442"
+       style="opacity:0.996;fill:#505a70;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000;font-variation-settings:normal;vector-effect:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-dashoffset:0;stop-opacity:1"
+       d="m 32,968 h 24 v 24 H 32 Z"
+       sodipodi:nodetypes="ccccc" />
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       transform="rotate(180,128,384)"
+       id="g1110">
+      <rect
+         y="21"
+         x="160"
+         height="24"
+         width="16"
+         id="rect1082"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1084"
+         width="16"
+         height="24"
+         x="153"
+         y="56" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1086"
+         width="16"
+         height="24"
+         x="208"
+         y="21" />
+      <rect
+         y="56"
+         x="215"
+         height="24"
+         width="16"
+         id="rect1088"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 176,16 h 32 l 16,80 h -64 z"
+         style="fill:#e2e21d;fill-opacity:1;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1090" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 152,98 h 78 v 9 h -78 z"
+         style="fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1092" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path1094"
+         d="m 160,98 -10,24 h -6 l 5,-24 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 224,98 10,24 h 6 l -5,-24 z"
+         id="path1096"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1098"
+         d="M 176,16 V 64 L 160,96 Z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 208,16 v 48 l 16,32 z"
+         id="path1100" />
+      <path
+         id="path1102"
+         d="m 160,96 16,-32 h 32 l 16,32 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#ddea5a;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 176,82 h 32 v 6 h -32 z"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1104" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 186,72 h 12 l 10,10 h -32 z"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1106" />
+      <rect
+         y="91"
+         x="179"
+         height="3"
+         width="26"
+         id="rect1108"
+         style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+    </g>
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="g1140"
+       transform="rotate(90,-128,384)">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1112"
+         width="16"
+         height="24"
+         x="160"
+         y="21" />
+      <rect
+         y="56"
+         x="153"
+         height="24"
+         width="16"
+         id="rect1114"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="21"
+         x="208"
+         height="24"
+         width="16"
+         id="rect1116"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1118"
+         width="16"
+         height="24"
+         x="215"
+         y="56" />
+      <path
+         id="path1120"
+         style="fill:#e2e21d;fill-opacity:1;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 176,16 h 32 l 16,80 h -64 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1122"
+         style="fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 152,98 h 78 v 9 h -78 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 160,98 -10,24 h -6 l 5,-24 z"
+         id="path1124"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path1126"
+         d="m 224,98 10,24 h 6 l -5,-24 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="M 176,16 V 64 L 160,96 Z"
+         id="path1128" />
+      <path
+         id="path1130"
+         d="m 208,16 v 48 l 16,32 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#ddea5a;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 160,96 16,-32 h 32 l 16,32 z"
+         id="path1132" />
+      <path
+         id="path1134"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 176,82 h 32 v 6 h -32 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1136"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 186,72 h 12 l 10,10 h -32 z"
+         sodipodi:nodetypes="ccccc" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect1138"
+         width="26"
+         height="3"
+         x="179"
+         y="91" />
+    </g>
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       transform="translate(128,640)"
+       id="g1170">
+      <rect
+         y="21"
+         x="160"
+         height="24"
+         width="16"
+         id="rect1142"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1144"
+         width="16"
+         height="24"
+         x="153"
+         y="56" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1146"
+         width="16"
+         height="24"
+         x="208"
+         y="21" />
+      <rect
+         y="56"
+         x="215"
+         height="24"
+         width="16"
+         id="rect1148"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 176,16 h 32 l 16,80 h -64 z"
+         style="fill:#e2e21d;fill-opacity:1;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1150" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 152,98 h 78 v 9 h -78 z"
+         style="fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1152" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path1154"
+         d="m 160,98 -10,24 h -6 l 5,-24 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 224,98 10,24 h 6 l -5,-24 z"
+         id="path1156"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1158"
+         d="M 176,16 V 64 L 160,96 Z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 208,16 v 48 l 16,32 z"
+         id="path1160" />
+      <path
+         id="path1162"
+         d="m 160,96 16,-32 h 32 l 16,32 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#ddea5a;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 176,82 h 32 v 6 h -32 z"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1164" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         d="m 186,72 h 12 l 10,10 h -32 z"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1166" />
+      <rect
+         y="91"
+         x="179"
+         height="3"
+         width="26"
+         id="rect1168"
+         style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+    </g>
+    <g
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       id="g1200"
+       transform="rotate(-90,640,256)">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1172"
+         width="16"
+         height="24"
+         x="160"
+         y="21" />
+      <rect
+         y="56"
+         x="153"
+         height="24"
+         width="16"
+         id="rect1174"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         y="21"
+         x="208"
+         height="24"
+         width="16"
+         id="rect1176"
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:50.2058;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect1178"
+         width="16"
+         height="24"
+         x="215"
+         y="56" />
+      <path
+         id="path1180"
+         style="fill:#e2e21d;fill-opacity:1;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 176,16 h 32 l 16,80 h -64 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1182"
+         style="fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 152,98 h 78 v 9 h -78 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 160,98 -10,24 h -6 l 5,-24 z"
+         id="path1184"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         sodipodi:nodetypes="ccccc"
+         id="path1186"
+         d="m 224,98 10,24 h 6 l -5,-24 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#609d9d;fill-opacity:1;stroke:none;stroke-width:17.5271;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="M 176,16 V 64 L 160,96 Z"
+         id="path1188" />
+      <path
+         id="path1190"
+         d="m 208,16 v 48 l 16,32 z"
+         style="font-variation-settings:normal;vector-effect:none;fill:#b3b320;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" />
+      <path
+         style="font-variation-settings:normal;vector-effect:none;fill:#ddea5a;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         d="m 160,96 16,-32 h 32 l 16,32 z"
+         id="path1192" />
+      <path
+         id="path1194"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 176,82 h 32 v 6 h -32 z"
+         sodipodi:nodetypes="ccccc" />
+      <path
+         id="path1196"
+         style="fill:#4ff5f5;fill-opacity:0.714092;stroke:none;stroke-width:16;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 186,72 h 12 l 10,10 h -32 z"
+         sodipodi:nodetypes="ccccc" />
+      <rect
+         style="font-variation-settings:normal;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:16;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+         id="rect1198"
+         width="26"
+         height="3"
+         x="179"
+         y="91" />
+    </g>
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="cc"
+       d="m 128,272 c -14,0 -16,-2 -16,-16"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#38d1d2;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1151" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="cc"
+       d="m 0,368 c 14,0 16,2 16,16"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#38d1d2;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1153" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       id="path1155"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#38d1d2;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 128,368 c -14,0 -16,2 -16,16"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="192"
+       inkscape:export-ydpi="192" />
+    <path
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       sodipodi:nodetypes="cc"
+       d="m 0,272 c 14,0 16,-2 16,-16"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#38d1d2;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1185" />
+    <path
+       inkscape:export-ydpi="192"
+       inkscape:export-xdpi="192"
+       inkscape:export-filename="/home/remkim/rect1377.png"
+       sodipodi:nodetypes="ccccccccc"
+       d="m 224,496 c 14,0 16,-2 16,-16 v -64 c 0,-14 -2,-16 -16,-16 h -64 c -14,0 -16,2 -16,16 v 64 c 0,14 2,16 16,16 z"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#38d1d2;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path1193" />
+  </g>
+</svg>

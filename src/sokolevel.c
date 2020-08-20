@@ -205,7 +205,7 @@ char level_undo_move(Sokolevel* lvl) {
 			++lvl->nrBoxesOnTargets;
 		}
 	}
-	level_print_status(lvl);
+	// level_print_status(lvl);
 	return mc;
 }
 

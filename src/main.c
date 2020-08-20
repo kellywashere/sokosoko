@@ -53,7 +53,7 @@ int main(int argc, char* argv[]) {
 	unsigned int errcode;
 	bool vsync = true;
 
-	errcode = init_window(&renderData, false);
+	errcode = init_window(&renderData, true);
 	if (errcode) {
 		return errcode;
 	}
@@ -65,7 +65,7 @@ int main(int argc, char* argv[]) {
 	}
 
 	// Texture* skin = create_texture(renderData.renderer, "assets/skins/BoxWorldIndigo.png");
-	Texture* skin = create_texture(renderData.renderer, "assets/skins/Nightshift2.png");
+	Texture* skin = create_texture(renderData.renderer, "assets/skins/HomeMade3.png");
 	// Texture* skin = create_texture(renderData.renderer, "assets/skins/Pacman.png");
 	char* glyphStr = " !\"  % '() +,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	BitmapFont* font = create_bitmap_font(renderData.renderer,
