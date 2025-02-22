@@ -4,16 +4,14 @@
 
 int init_renderer(RenderData* renderData, bool vsync) {
 	renderData->renderer = NULL;
-	/*
-	Uint32 flags = SDL_RENDERER_ACCELERATED;
-	if (vsync)
-		flags |= SDL_RENDERER_PRESENTVSYNC;
-	renderData->renderer = SDL_CreateRenderer(renderData->window, -1, flags);
-	*/
 	renderData->renderer = SDL_CreateRenderer(renderData->window, NULL);
 	if (renderData->renderer == NULL) {
 		fprintf(stderr, "Renderer could not be created! SDL Error: %s\n", SDL_GetError() );
 		return 1;
+	}
+	if (vsync && !SDL_SetRenderVSync(renderData->renderer, 1)) {
+		fprintf(stderr, "Could not set VSync on renderer! SDL Error: %s\n", SDL_GetError() );
+		return 2;
 	}
 	return 0;
 }
