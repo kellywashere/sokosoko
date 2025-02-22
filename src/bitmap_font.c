@@ -1,4 +1,5 @@
-#include <SDL2/SDL.h>
+#include <SDL3/SDL.h>
+#include <stdlib.h>
 
 #include "texture.h"
 #include "bitmap_font.h"
@@ -42,8 +43,8 @@ int render_text(SDL_Renderer* renderer, BitmapFont* bmf,
 		int x, int y, char* text) {
 
 	int text_width = 0;
-	SDL_Rect dstRect = {x, y, bmf->charWidth, bmf->charHeight};
-	SDL_Rect srcRect = {0, 0, bmf->charWidth, bmf->charHeight};
+	SDL_FRect dstRect = {x, y, bmf->charWidth, bmf->charHeight};
+	SDL_FRect srcRect = {0, 0, bmf->charWidth, bmf->charHeight};
 
 	for (int ii = 0; text[ii] != 0; ++ii) {
 		char c = text[ii];
@@ -59,7 +60,7 @@ int render_text(SDL_Renderer* renderer, BitmapFont* bmf,
 				if (glyphRow <= bmf->sheetRows) {
 					srcRect.x = glyphCol * bmf->charWidth;
 					srcRect.y = glyphRow * bmf->charHeight;
-					SDL_RenderCopy(renderer, bmf->texture->texture, &srcRect, &dstRect);
+					SDL_RenderTexture(renderer, bmf->texture->texture, &srcRect, &dstRect);
 				}
 			}
 			dstRect.x += bmf->charWidth;

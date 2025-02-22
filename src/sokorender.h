@@ -1,8 +1,7 @@
 #ifndef __SOKORENDER_H__
 #define __SOKORENDER_H__
 
-#include <SDL2/SDL.h>
-#include "sokolevel.h"
+#include <SDL3/SDL.h>
 #include "texture.h"
 #include "sokogame.h"
 
@@ -15,6 +14,6 @@ int  init_renderer(RenderData* renderData, bool vsync);
 void destroy_renderer(RenderData* renderData);
 
 void render_level(RenderData* renderData, GameState* state, Texture* skin,
-		SDL_Rect* boundRect, bool pow2scaling);
+		SDL_FRect* boundRect, bool pow2scaling);
 
 #endif

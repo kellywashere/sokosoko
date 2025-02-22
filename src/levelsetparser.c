@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stddef.h>
+#include <stdlib.h>
 #include "util.h"
 #include "levelsetparser.h"
 #include "sokolevelset.h"

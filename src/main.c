@@ -1,8 +1,8 @@
-#include <SDL2/SDL.h>
+#include <SDL3/SDL.h>
+#include <SDL3/SDL_main.h>
+
 #include <stdio.h>
-#include <ctype.h>
 #include "levelsetparser.h"
-#include "util.h"
 #include "texture.h"
 #include "sokorender.h"
 #include "sokogame.h"
@@ -11,15 +11,13 @@
 static int init_window(RenderData* renderData, bool fullscreen) {
 	renderData->window   = NULL;
 
-	if (SDL_Init(SDL_INIT_VIDEO) < 0 ) {
+	if (!SDL_Init(SDL_INIT_VIDEO)) {
 		fprintf(stderr, "SDL could not initialize! SDL_Error: %s\n", SDL_GetError() );
 		return 1;
 	}
 
-	renderData->window = SDL_CreateWindow("SDL Test",
-			SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
-			1024, 768,
-			SDL_WINDOW_SHOWN | (fullscreen ? SDL_WINDOW_FULLSCREEN_DESKTOP : 0));
+	renderData->window = SDL_CreateWindow("SDL Test", 1024, 768,
+			(fullscreen ? SDL_WINDOW_FULLSCREEN : 0));
 	if (renderData->window == NULL) {
 		fprintf(stderr, "Window could not be created! SDL_Error: %s\n", SDL_GetError() );
 		return 2;
@@ -79,42 +77,42 @@ int main(int argc, char* argv[]) {
 		/* Event handling */
 		SDL_Event e;
 		if (SDL_PollEvent(&e)) {
-			if (e.type == SDL_QUIT) {
+			if (e.type == SDL_EVENT_QUIT) {
 				quit = true;
 			}
-			else if (e.type == SDL_KEYDOWN) {
-				switch (e.key.keysym.sym) {
+			else if (e.type == SDL_EVENT_KEY_DOWN) {
+				switch (e.key.key) {
 					case SDLK_UP:
-					case SDLK_k:
+					case SDLK_K:
 						level_move_up(lvl);
 						break;
 					case SDLK_DOWN:
-					case SDLK_j:
+					case SDLK_J:
 						level_move_down(lvl);
 						break;
 					case SDLK_LEFT:
-					case SDLK_h:
+					case SDLK_H:
 						level_move_left(lvl);
 						break;
 					case SDLK_RIGHT:
-					case SDLK_l:
+					case SDLK_L:
 						level_move_right(lvl);
 						break;
-					case SDLK_u:
+					case SDLK_U:
 						level_undo_last_push(lvl);
 						break;
-					case SDLK_n:
+					case SDLK_N:
 						levelset_next(levelset);
 						lvl = levelset_cur(levelset);
 						init_game_state(&state, lvl);
 						break;
-					case SDLK_p:
+					case SDLK_P:
 						levelset_prev(levelset);
 						lvl = levelset_cur(levelset);
 						init_game_state(&state, lvl);
 						break;
 					case SDLK_ESCAPE:
-					case SDLK_q:
+					case SDLK_Q:
 						quit = true;
 						break;
 					default:
@@ -144,7 +142,7 @@ int main(int argc, char* argv[]) {
 
 		SDL_RenderClear(renderData.renderer);
 
-		SDL_Rect renderRect = {8,40, win_w - 16, win_h - 32 - 16};
+		SDL_FRect renderRect = {8,40, win_w - 16, win_h - 32 - 16};
 		render_level(&renderData, &state, skin, &renderRect, false);
 
 		char buf[80];

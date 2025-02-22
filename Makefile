@@ -12,12 +12,13 @@ LINKER   = gcc
 # linking flags here
 LFLAGS   := -I.
 
+# Windows portion is outdated, still refers to SDL2
 ifeq ($(OS),Windows_NT)
 	CFLAGS += -Dmain=SDL_main -I/mingw64/include/SDL2
 	LFLAGS += -L/mingw64/lib -lmingw32 -lSDL2main -lSDL2 -lSDL2_image
 else
-	CFLAGS += -I/usr/include/SDL2 -I/usr/include/libxml2 -D_REENTRANT
-	LFLAGS += -L/usr/lib -pthread -lSDL2 -lSDL2_image -lxml2
+	CFLAGS += `pkg-config --cflags sdl3 sdl3-image libxml-2.0`
+	LFLAGS += `pkg-config --libs sdl3 sdl3-image libxml-2.0`
 endif
 
 # change these to proper directories where each file should be

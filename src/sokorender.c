@@ -1,11 +1,16 @@
+#include <stdio.h>
+#include <ctype.h>
 #include "sokorender.h"
 
 int init_renderer(RenderData* renderData, bool vsync) {
 	renderData->renderer = NULL;
+	/*
 	Uint32 flags = SDL_RENDERER_ACCELERATED;
 	if (vsync)
 		flags |= SDL_RENDERER_PRESENTVSYNC;
 	renderData->renderer = SDL_CreateRenderer(renderData->window, -1, flags);
+	*/
+	renderData->renderer = SDL_CreateRenderer(renderData->window, NULL);
 	if (renderData->renderer == NULL) {
 		fprintf(stderr, "Renderer could not be created! SDL Error: %s\n", SDL_GetError() );
 		return 1;
@@ -19,7 +24,7 @@ void destroy_renderer(RenderData* renderData) {
 
 int wallLUT[] = {5, 4, 5, 4, 1, 0, 1, 2}; // LUT for wall rendering
 static void render_level_wall(RenderData* renderData, Sokolevel* lvl, GridPos pos,
-		SDL_Rect dstRect, Texture* skin) {
+		SDL_FRect dstRect, Texture* skin) {
 	/* We have four corners in each wall section: TL, TR, BL, BR
 	 * For each corner we look at 3 relevant neighboring cells: Horizontal, Diagonal, Vertical
 	 * we encode like: H bit 2, D bit 1, V bit 0
@@ -27,7 +32,7 @@ static void render_level_wall(RenderData* renderData, Sokolevel* lvl, GridPos po
 	 */
 	int skin_size = skin->width/4; // w,h of skin cells
 
-	SDL_Rect srcRect = {0, 0, skin_size/2, skin_size/2}; // corner: w,h are size/2
+	SDL_FRect srcRect = {0, 0, (float)skin_size/2, (float)skin_size/2}; // corner: w,h are size/2
 	dstRect.w /= 2;  // corner: w,h are size/2
 	dstRect.h /= 2;  // corner: w,h are size/2
 	// Top-left
@@ -37,39 +42,39 @@ static void render_level_wall(RenderData* renderData, Sokolevel* lvl, GridPos po
 		(level_get_grid(lvl, pos.row - 1, pos.col    ) == WALL ? 1 : 0);
 	srcRect.x = (wallLUT[lutidx] % 4) * skin_size;
 	srcRect.y = ((wallLUT[lutidx] / 4) + 2) * skin_size;
-	SDL_RenderCopy(renderData->renderer, skin->texture, &srcRect, &dstRect);
+	SDL_RenderTexture(renderData->renderer, skin->texture, &srcRect, &dstRect);
 	// Top-right
 	lutidx =
 		(level_get_grid(lvl, pos.row    , pos.col + 1) == WALL ? 4 : 0) +
 		(level_get_grid(lvl, pos.row - 1, pos.col + 1) == WALL ? 2 : 0) +
 		(level_get_grid(lvl, pos.row - 1, pos.col    ) == WALL ? 1 : 0);
-	srcRect.x = (wallLUT[lutidx] % 4) * skin_size + skin_size/2;
+	srcRect.x = (wallLUT[lutidx] % 4) * skin_size + 0.5f*skin_size;
 	srcRect.y = ((wallLUT[lutidx] / 4) + 2) * skin_size;
 	dstRect.x += dstRect.w;
-	SDL_RenderCopy(renderData->renderer, skin->texture, &srcRect, &dstRect);
+	SDL_RenderTexture(renderData->renderer, skin->texture, &srcRect, &dstRect);
 	// Bottom-right
 	lutidx =
 		(level_get_grid(lvl, pos.row    , pos.col + 1) == WALL ? 4 : 0) +
 		(level_get_grid(lvl, pos.row + 1, pos.col + 1) == WALL ? 2 : 0) +
 		(level_get_grid(lvl, pos.row + 1, pos.col    ) == WALL ? 1 : 0);
-	srcRect.x = (wallLUT[lutidx] % 4) * skin_size + skin_size/2;
-	srcRect.y = ((wallLUT[lutidx] / 4) + 2) * skin_size + skin_size/2;
+	srcRect.x = (wallLUT[lutidx] % 4) * skin_size + 0.5f*skin_size;
+	srcRect.y = ((wallLUT[lutidx] / 4) + 2) * skin_size + 0.5f*skin_size;
 	dstRect.y += dstRect.h;
-	SDL_RenderCopy(renderData->renderer, skin->texture, &srcRect, &dstRect);
+	SDL_RenderTexture(renderData->renderer, skin->texture, &srcRect, &dstRect);
 	// Bottom-left
 	lutidx =
 		(level_get_grid(lvl, pos.row    , pos.col - 1) == WALL ? 4 : 0) +
 		(level_get_grid(lvl, pos.row + 1, pos.col - 1) == WALL ? 2 : 0) +
 		(level_get_grid(lvl, pos.row + 1, pos.col    ) == WALL ? 1 : 0);
 	srcRect.x = (wallLUT[lutidx] % 4) * skin_size;
-	srcRect.y = ((wallLUT[lutidx] / 4) + 2) * skin_size + skin_size/2;
+	srcRect.y = ((wallLUT[lutidx] / 4) + 2) * skin_size + 0.5f*skin_size;
 	dstRect.x -= dstRect.w;
-	SDL_RenderCopy(renderData->renderer, skin->texture, &srcRect, &dstRect);
+	SDL_RenderTexture(renderData->renderer, skin->texture, &srcRect, &dstRect);
 }
 
 
 void render_level(RenderData* renderData, GameState* state, Texture* skin,
-		SDL_Rect* boundRect, bool pow2scaling) {
+		SDL_FRect* boundRect, bool pow2scaling) {
 	Sokolevel* lvl = state->lvl;
 	// figure out zoom-out factor
 	int skin_size = skin->width/4; // w,h of skin cells
@@ -98,8 +103,8 @@ void render_level(RenderData* renderData, GameState* state, Texture* skin,
 	int offsy = boundRect->y + (boundRect->h - lvl_h_px)/2;
 
 	// render level
-	SDL_Rect srcRect = {0, 0, skin_size, skin_size};
-	SDL_Rect dstRect = {offsx, offsy, dest_size, dest_size};
+	SDL_FRect srcRect = {0, 0, skin_size, skin_size};
+	SDL_FRect dstRect = {offsx, offsy, dest_size, dest_size};
 	GridPos pos;
 	for (pos.row = 0; pos.row < lvl->height; ++pos.row) {
 		dstRect.x = offsx;
@@ -151,7 +156,7 @@ void render_level(RenderData* renderData, GameState* state, Texture* skin,
 				srcRect.y += skin_size;
 			}
 			if (g != OUTSIDE && g != WALL) {
-				SDL_RenderCopy(renderData->renderer, skin->texture, &srcRect, &dstRect);
+				SDL_RenderTexture(renderData->renderer, skin->texture, &srcRect, &dstRect);
 			}
 			dstRect.x += dest_size;
 		}

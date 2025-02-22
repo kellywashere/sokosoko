@@ -1,5 +1,7 @@
 obj/
 bin/
 .vscode/
+.cache/
 tags
+compile_commands.json
 

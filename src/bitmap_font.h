@@ -2,7 +2,7 @@
 #define __BITMAPFONT_H__
 
 #include "texture.h"
-#include <SDL2/SDL.h>
+#include <SDL3/SDL.h>
 
 #define TEXT_LEFT   0 /* x-coordinate is left */
 #define TEXT_CENTER 1 /* x-coordinate is center */
